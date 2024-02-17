@@ -1,0 +1,81 @@
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+		<title> Eolymp | Tournament </title>
+
+		<meta charset= "UTF-8" />
+		<meta name= "description" content= "Detailed solution and explanation for the CSES Apartments problem" />
+		<meta name= "keywords" content= "apartments, cses apartments solution, cses ,cses solutions, cses problem set solutions, algorithm visualization" />
+		<meta name= "author" content= "japl" />
+		<meta name= "viewport" content= "width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" async
+  		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+		<link rel="icon" href="../../favicon.ico" />
+		
+		
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJRKSBQ1BY"></script>
+	
+
+
+		<link rel="stylesheet" href="../solution.css">
+	</head>
+        <body>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a class="active" href="../../index.html"> ↳ Back</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="conteudo">
+                <h1>Tournament</h1>
+
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Statement:</p>
+                <p style="font-size:25px ;  text-align: justify"> ( The original statement can be found <a href="https://www.eolymp.com/en/problems/3002" target="_blank">here</a> )Two players started a darts tournament. The tournament is a series of
+n
+games. In each game, participants perform a number of shots, gaining points. The game is considered won by the player who scored more points in it than the opponent. If the players scored an equal number of points in the game, then its outcome is considered to be a draw. The winner of the tournament is the one who get the most wins.
+Write a program that determines the winner of the tournament.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Input:</p>
+                <p style="font-size:25px ;  text-align: justify">First line contains the number of games n (1 ≤ n ≤ 1000) in the tournament. Each of the next n lines contains two integers - the number of points gained by the first and second player. All numbers are nonnegative integers no more than 1000.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Output:</p>
+                <p style="font-size:25px ;  text-align: justify">Two players started a darts tournament. The tournament is a series of n games. In each game, participants perform a number of shots, gaining points. The game is considered won by the player who scored more points in it than the opponent. If the players scored an equal number of points in the game, then its outcome is considered to be a draw. The winner of the tournament is the one who get the most wins.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Constraints:</p>
+                <p style="font-size:25px ;  text-align: justify">Time limit
+                        1
+                        second<br>Memory limit
+                        128
+                        MiB<br>Author Середа А.А.<br>Source III этап УОИ Донецк, 2012 г. I тур 10-11 кл.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Solution:</p>
+                <pre style="color:#D9C0A3;background:#323840ff; border-radius:15px;font-size:0.9vw;"><div class="highlight"><pre><span></span><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">first_player_score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">second_player_score</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">score1</span><span class="p">,</span> <span class="n">score2</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+    <span class="k">if</span> <span class="n">score1</span> <span class="o">&gt;</span> <span class="n">score2</span><span class="p">:</span>
+        <span class="n">first_player_score</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">score2</span> <span class="o">&gt;</span> <span class="n">score1</span><span class="p">:</span>
+        <span class="n">second_player_score</span> <span class="o">+=</span> <span class="mi">1</span>
+
+<span class="k">if</span> <span class="n">first_player_score</span> <span class="o">&gt;</span> <span class="n">second_player_score</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">second_player_score</span> <span class="o">&gt;</span> <span class="n">first_player_score</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</pre>
+                </iframe>
+            </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <!-- and it's easy to individually load additional languages -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+        </body>
+    </html>
+    

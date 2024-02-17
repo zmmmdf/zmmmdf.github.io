@@ -1,0 +1,4307 @@
+[
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/15973975",
+        "problem_href": "https://www.eolymp.com/en/problems/11400",
+        "problem_title": "Balance scale",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "15973975"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/15905549",
+        "problem_href": "https://www.eolymp.com/en/problems/982",
+        "problem_title": "Connectivity",
+        "lang": "C++ 20 (gnu 10.2)",
+        "id": "15905549"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/15905445",
+        "problem_href": "https://www.eolymp.com/en/problems/4002",
+        "problem_title": "Cheating away!",
+        "lang": "C++ 20 (gnu 10.2)",
+        "id": "15905445"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/15905429",
+        "problem_href": "https://www.eolymp.com/en/problems/4002",
+        "problem_title": "Cheating away!",
+        "lang": "C++ 20 (gnu 10.2)",
+        "id": "15905429"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/15904242",
+        "problem_href": "https://www.eolymp.com/en/problems/4004",
+        "problem_title": "Is there a cycle?",
+        "lang": "C++ 20 (gnu 10.2)",
+        "id": "15904242"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/15904222",
+        "problem_href": "https://www.eolymp.com/en/problems/4004",
+        "problem_title": "Is there a cycle?",
+        "lang": "C++ 20 (gnu 10.2)",
+        "id": "15904222"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14913909",
+        "problem_href": "https://www.eolymp.com/en/problems/11290",
+        "problem_title": "Card game",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14913909"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14185631",
+        "problem_href": "https://www.eolymp.com/en/problems/62",
+        "problem_title": "The Factorial",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "14185631"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14185538",
+        "problem_href": "https://www.eolymp.com/en/problems/62",
+        "problem_title": "The Factorial",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14185538"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14108830",
+        "problem_href": "https://www.eolymp.com/en/problems/8899",
+        "problem_title": "099",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14108830"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14108820",
+        "problem_href": "https://www.eolymp.com/en/problems/8898",
+        "problem_title": "098",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14108820"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14108816",
+        "problem_href": "https://www.eolymp.com/en/problems/8896",
+        "problem_title": "096",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14108816"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14108805",
+        "problem_href": "https://www.eolymp.com/en/problems/8890",
+        "problem_title": "Increase even digit",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14108805"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14108802",
+        "problem_href": "https://www.eolymp.com/en/problems/8872",
+        "problem_title": "072",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14108802"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14039806",
+        "problem_href": "https://www.eolymp.com/en/problems/9639",
+        "problem_title": "Big array of Dino",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14039806"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14031663",
+        "problem_href": "https://www.eolymp.com/en/problems/9017",
+        "problem_title": "Binary search - 1",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14031663"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14031655",
+        "problem_href": "https://www.eolymp.com/en/problems/9016",
+        "problem_title": "Binary search",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14031655"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14020228",
+        "problem_href": "https://www.eolymp.com/en/problems/9632",
+        "problem_title": "The best team",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14020228"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14020183",
+        "problem_href": "https://www.eolymp.com/en/problems/11147",
+        "problem_title": "Bomb disposal",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14020183"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14020177",
+        "problem_href": "https://www.eolymp.com/en/problems/11244",
+        "problem_title": "Sum of two",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14020177"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14020174",
+        "problem_href": "https://www.eolymp.com/en/problems/9632",
+        "problem_title": "The best team",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "14020174"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14020172",
+        "problem_href": "https://www.eolymp.com/en/problems/10672",
+        "problem_title": "University Admission",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "14020172"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/14020162",
+        "problem_href": "https://www.eolymp.com/en/problems/9640",
+        "problem_title": "Dino and fetters",
+        "lang": "Python 3 (python 3.8)",
+        "id": "14020162"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13988246",
+        "problem_href": "https://www.eolymp.com/en/problems/10263",
+        "problem_title": "Sort the people",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13988246"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13988240",
+        "problem_href": "https://www.eolymp.com/en/problems/10263",
+        "problem_title": "Sort the people",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13988240"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13988226",
+        "problem_href": "https://www.eolymp.com/en/problems/8637",
+        "problem_title": "Sort the points",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13988226"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13988221",
+        "problem_href": "https://www.eolymp.com/en/problems/9648",
+        "problem_title": "Sort the digits of numbers",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13988221"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13988214",
+        "problem_href": "https://www.eolymp.com/en/problems/4848",
+        "problem_title": "Quick Sort",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13988214"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13988205",
+        "problem_href": "https://www.eolymp.com/en/problems/2663",
+        "problem_title": "Bubble sort",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13988205"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13988194",
+        "problem_href": "https://www.eolymp.com/en/problems/4738",
+        "problem_title": "Sorting",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13988194"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13988185",
+        "problem_href": "https://www.eolymp.com/en/problems/2321",
+        "problem_title": "Sorting",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13988185"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13978935",
+        "problem_href": "https://www.eolymp.com/en/problems/7860",
+        "problem_title": "Judging Troubles",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13978935"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13954228",
+        "problem_href": "https://www.eolymp.com/en/problems/10296",
+        "problem_title": "Recursive function 1",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13954228"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13954211",
+        "problem_href": "https://www.eolymp.com/en/problems/1957",
+        "problem_title": "Silver medal",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13954211"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13954192",
+        "problem_href": "https://www.eolymp.com/en/submissions/13954192",
+        "problem_title": "\ue5ca\u00a0Accepted",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13954192"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13954165",
+        "problem_href": "https://www.eolymp.com/en/submissions/13954165",
+        "problem_title": "\ue5ca\u00a0Accepted",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13954165"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13954152",
+        "problem_href": "https://www.eolymp.com/en/problems/1586",
+        "problem_title": "The postfix record",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13954152"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13954076",
+        "problem_href": "https://www.eolymp.com/en/problems/2479",
+        "problem_title": "Parentheses Balance",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13954076"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13943942",
+        "problem_href": "https://www.eolymp.com/en/problems/7311",
+        "problem_title": "Insert Parentheses",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13943942"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13943929",
+        "problem_href": "https://www.eolymp.com/en/problems/5327",
+        "problem_title": "Bracket sequence",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13943929"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13943854",
+        "problem_href": "https://www.eolymp.com/en/problems/10143",
+        "problem_title": "Throwing cards away",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13943854"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13943850",
+        "problem_href": "https://www.eolymp.com/en/problems/10143",
+        "problem_title": "Throwing cards away",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13943850"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13943849",
+        "problem_href": "https://www.eolymp.com/en/problems/8355",
+        "problem_title": "Book shelf",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13943849"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927519",
+        "problem_href": "https://www.eolymp.com/en/problems/4732",
+        "problem_title": "iccanobiF",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13927519"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927516",
+        "problem_href": "https://www.eolymp.com/en/problems/4720",
+        "problem_title": "New Sergey's game",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13927516"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927510",
+        "problem_href": "https://www.eolymp.com/en/problems/4720",
+        "problem_title": "New Sergey's game",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13927510"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927506",
+        "problem_href": "https://www.eolymp.com/en/problems/4733",
+        "problem_title": "Is it divisible by 2, 4 and 8?",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13927506"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927503",
+        "problem_href": "https://www.eolymp.com/en/problems/8960",
+        "problem_title": "160",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13927503"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927501",
+        "problem_href": "https://www.eolymp.com/en/problems/9000",
+        "problem_title": "Ordering",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13927501"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927416",
+        "problem_href": "https://www.eolymp.com/en/problems/4734",
+        "problem_title": "Is it divisible by 3, 6 and 9?",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13927416"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927412",
+        "problem_href": "https://www.eolymp.com/en/problems/4735",
+        "problem_title": "Is it divisible by 5 and 10?",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13927412"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927407",
+        "problem_href": "https://www.eolymp.com/en/problems/7832",
+        "problem_title": "Number of maximums",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13927407"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927400",
+        "problem_href": "https://www.eolymp.com/en/problems/4760",
+        "problem_title": "Move zeroes",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13927400"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927389",
+        "problem_href": "https://www.eolymp.com/en/problems/4732",
+        "problem_title": "iccanobiF",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13927389"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13927368",
+        "problem_href": "https://www.eolymp.com/en/problems/4730",
+        "problem_title": "Fibonacci",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13927368"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13859868",
+        "problem_href": "https://www.eolymp.com/en/problems/4437",
+        "problem_title": "Remove the parentheses",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13859868"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13859867",
+        "problem_href": "https://www.eolymp.com/en/problems/4437",
+        "problem_title": "Remove the parentheses",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13859867"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13800678",
+        "problem_href": "https://www.eolymp.com/en/problems/8951",
+        "problem_title": "Template 6",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13800678"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13800639",
+        "problem_href": "https://www.eolymp.com/en/problems/7491",
+        "problem_title": "Integer",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13800639"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13787913",
+        "problem_href": "https://www.eolymp.com/en/problems/697",
+        "problem_title": "Box",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13787913"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13778442",
+        "problem_href": "https://www.eolymp.com/en/problems/4004",
+        "problem_title": "Is there a cycle?",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13778442"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13778439",
+        "problem_href": "https://www.eolymp.com/en/problems/4004",
+        "problem_title": "Is there a cycle?",
+        "lang": "Java (openjdk 1.17)",
+        "id": "13778439"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13778438",
+        "problem_href": "https://www.eolymp.com/en/problems/4004",
+        "problem_title": "Is there a cycle?",
+        "lang": "Java (openjdk 1.8)",
+        "id": "13778438"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13777768",
+        "problem_href": "https://www.eolymp.com/en/problems/4000",
+        "problem_title": "Depth Search",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13777768"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13777742",
+        "problem_href": "https://www.eolymp.com/en/problems/978",
+        "problem_title": "Get a tree",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13777742"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13774111",
+        "problem_href": "https://www.eolymp.com/en/problems/5073",
+        "problem_title": "Multiedges",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13774111"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13774110",
+        "problem_href": "https://www.eolymp.com/en/problems/5073",
+        "problem_title": "Multiedges",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13774110"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13774079",
+        "problem_href": "https://www.eolymp.com/en/problems/10482",
+        "problem_title": "Count sources",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13774079"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13774009",
+        "problem_href": "https://www.eolymp.com/en/problems/5077",
+        "problem_title": "Semi-complete graph",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13774009"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13773966",
+        "problem_href": "https://www.eolymp.com/en/problems/2472",
+        "problem_title": "Operations on graph",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13773966"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13773558",
+        "problem_href": "https://www.eolymp.com/en/problems/10505",
+        "problem_title": "Number of loops",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13773558"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13773506",
+        "problem_href": "https://www.eolymp.com/en/problems/5088",
+        "problem_title": "Number of hanging vertices 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13773506"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13773453",
+        "problem_href": "https://www.eolymp.com/en/problems/4854",
+        "problem_title": "Reverse me!",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13773453"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762999",
+        "problem_href": "https://www.eolymp.com/en/problems/21",
+        "problem_title": "Corruption",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13762999"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762992",
+        "problem_href": "https://www.eolymp.com/en/problems/22",
+        "problem_title": "\"Mirror prime\" numbers",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13762992"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762991",
+        "problem_href": "https://www.eolymp.com/en/problems/23",
+        "problem_title": "New-year tree",
+        "lang": "C# (mono 5.20)",
+        "id": "13762991"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762990",
+        "problem_href": "https://www.eolymp.com/en/problems/23",
+        "problem_title": "New-year tree",
+        "lang": "C# (microsoft .NET 5)",
+        "id": "13762990"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762985",
+        "problem_href": "https://www.eolymp.com/en/problems/19",
+        "problem_title": "Degree of symmetry",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13762985"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762983",
+        "problem_href": "https://www.eolymp.com/en/problems/18",
+        "problem_title": "Paint2D",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13762983"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762979",
+        "problem_href": "https://www.eolymp.com/en/problems/17",
+        "problem_title": "Gardener-painter",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762979"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762975",
+        "problem_href": "https://www.eolymp.com/en/problems/16",
+        "problem_title": "Dragon",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13762975"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762959",
+        "problem_href": "https://www.eolymp.com/en/problems/14",
+        "problem_title": "Rabbit-failure",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13762959"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762954",
+        "problem_href": "https://www.eolymp.com/en/problems/13",
+        "problem_title": "Spider and Fly",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762954"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762946",
+        "problem_href": "https://www.eolymp.com/en/problems/5080",
+        "problem_title": "Number of hanging vertices 1",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762946"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762940",
+        "problem_href": "https://www.eolymp.com/en/problems/5079",
+        "problem_title": "Transitivity of directed graph",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762940"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762934",
+        "problem_href": "https://www.eolymp.com/en/problems/5075",
+        "problem_title": "\u041f\u043e\u043b\u0443\u0441\u0442\u0435\u043f\u0435\u043d\u0438 \u0432\u0435\u0440\u0448\u0438\u043d \u043f\u043e \u0441\u043f\u0438\u0441\u043a\u0430\u043c \u0440\u0435\u0431\u0435\u0440",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762934"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762932",
+        "problem_href": "https://www.eolymp.com/en/problems/5074",
+        "problem_title": "Degrees of vertices by a list of edges",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762932"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762931",
+        "problem_href": "https://www.eolymp.com/en/problems/5072",
+        "problem_title": "Count the number of edges",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762931"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762924",
+        "problem_href": "https://www.eolymp.com/en/problems/4767",
+        "problem_title": "\u041e\u0442 \u0441\u043f\u0438\u0441\u043a\u0430 \u0440\u0451\u0431\u0435\u0440 \u043a \u043c\u0430\u0442\u0440\u0438\u0446\u0435 \u0441\u043c\u0435\u0436\u043d\u043e\u0441\u0442\u0438 - 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762924"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762916",
+        "problem_href": "https://www.eolymp.com/en/problems/4766",
+        "problem_title": "From adjacency matrix to the list of edges - 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762916"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762898",
+        "problem_href": "https://www.eolymp.com/en/problems/4764",
+        "problem_title": "Degrees of vertices",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762898"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762728",
+        "problem_href": "https://www.eolymp.com/en/problems/4763",
+        "problem_title": "From list of edges to adjacency matrix",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762728"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762695",
+        "problem_href": "https://www.eolymp.com/en/problems/8976",
+        "problem_title": "\u041c\u043e\u0434\u043d\u0456 \u0435\u043b\u0435\u043c\u0435\u043d\u0442\u0438 4",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762695"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762675",
+        "problem_href": "https://www.eolymp.com/en/problems/4762",
+        "problem_title": "\u041e\u0442 \u043c\u0430\u0442\u0440\u0438\u0446\u044b \u0441\u043c\u0435\u0436\u043d\u043e\u0441\u0442\u0438 \u043a \u0441\u043f\u0438\u0441\u043a\u0443 \u0440\u0451\u0431\u0435\u0440",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762675"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762640",
+        "problem_href": "https://www.eolymp.com/en/problems/4761",
+        "problem_title": "Loops",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762640"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13762609",
+        "problem_href": "https://www.eolymp.com/en/problems/3987",
+        "problem_title": "Complete graph",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13762609"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13725130",
+        "problem_href": "https://www.eolymp.com/en/problems/3986",
+        "problem_title": "Sources and sinks",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13725130"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13724998",
+        "problem_href": "https://www.eolymp.com/en/problems/3981",
+        "problem_title": "From adjacency matrix to adjacency list",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13724998"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13711749",
+        "problem_href": "https://www.eolymp.com/en/problems/8654",
+        "problem_title": "Integer multiplication",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13711749"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13685931",
+        "problem_href": "https://www.eolymp.com/en/problems/11390",
+        "problem_title": "Uncle Styopa policeman",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13685931"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13685903",
+        "problem_href": "https://www.eolymp.com/en/problems/11390",
+        "problem_title": "Uncle Styopa policeman",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13685903"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13673240",
+        "problem_href": "https://www.eolymp.com/en/submissions/13673240",
+        "problem_title": "\ue5ca\u00a0Accepted",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13673240"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13673216",
+        "problem_href": "https://www.eolymp.com/en/submissions/13673216",
+        "problem_title": "\ue5ca\u00a0Accepted",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13673216"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13673033",
+        "problem_href": "https://www.eolymp.com/en/problems/15",
+        "problem_title": "Mouse and corns",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13673033"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13673020",
+        "problem_href": "https://www.eolymp.com/en/problems/12",
+        "problem_title": "Injured Picture",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13673020"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13673017",
+        "problem_href": "https://www.eolymp.com/en/problems/11",
+        "problem_title": "Big accuracy",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13673017"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13673005",
+        "problem_href": "https://www.eolymp.com/en/problems/7",
+        "problem_title": "Roman numerals",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13673005"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13673004",
+        "problem_href": "https://www.eolymp.com/en/problems/6",
+        "problem_title": "The vouchers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13673004"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13672945",
+        "problem_href": "https://www.eolymp.com/en/problems/9033",
+        "problem_title": "Greedy Aziz",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13672945"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13672015",
+        "problem_href": "https://www.eolymp.com/en/problems/9033",
+        "problem_title": "Greedy Aziz",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13672015"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13672003",
+        "problem_href": "https://www.eolymp.com/en/problems/9003",
+        "problem_title": "Q\u0259dim Az\u0259rbaycan",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13672003"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671999",
+        "problem_href": "https://www.eolymp.com/en/problems/8928",
+        "problem_title": "Greatest divisor",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671999"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671994",
+        "problem_href": "https://www.eolymp.com/en/problems/8892",
+        "problem_title": "At least one condition out of two",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671994"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671986",
+        "problem_href": "https://www.eolymp.com/en/problems/8998",
+        "problem_title": "The youngest symbol",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671986"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671984",
+        "problem_href": "https://www.eolymp.com/en/problems/8997",
+        "problem_title": "197",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671984"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671980",
+        "problem_href": "https://www.eolymp.com/en/problems/8996",
+        "problem_title": "196",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671980"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671974",
+        "problem_href": "https://www.eolymp.com/en/problems/8995",
+        "problem_title": "195",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671974"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671972",
+        "problem_href": "https://www.eolymp.com/en/problems/8994",
+        "problem_title": "194",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671972"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671963",
+        "problem_href": "https://www.eolymp.com/en/problems/8993",
+        "problem_title": "193",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671963"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671953",
+        "problem_href": "https://www.eolymp.com/en/problems/8992",
+        "problem_title": "192",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671953"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671948",
+        "problem_href": "https://www.eolymp.com/en/problems/8991",
+        "problem_title": "Characters doubling",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671948"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671943",
+        "problem_href": "https://www.eolymp.com/en/problems/8990",
+        "problem_title": "Vowels doubling",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671943"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671934",
+        "problem_href": "https://www.eolymp.com/en/problems/8989",
+        "problem_title": "189",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671934"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671932",
+        "problem_href": "https://www.eolymp.com/en/problems/8988",
+        "problem_title": "Character replacement 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671932"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671922",
+        "problem_href": "https://www.eolymp.com/en/problems/8987",
+        "problem_title": "Character replacement",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671922"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671899",
+        "problem_href": "https://www.eolymp.com/en/problems/8986",
+        "problem_title": "Delete a fragment",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671899"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671848",
+        "problem_href": "https://www.eolymp.com/en/problems/8985",
+        "problem_title": "Delete a letter",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671848"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671844",
+        "problem_href": "https://www.eolymp.com/en/problems/8974",
+        "problem_title": "Fashion Elements 2",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671844"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671836",
+        "problem_href": "https://www.eolymp.com/en/problems/8965",
+        "problem_title": "Initial values of elements",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671836"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671825",
+        "problem_href": "https://www.eolymp.com/en/problems/8964",
+        "problem_title": "Maximums to the right",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671825"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671799",
+        "problem_href": "https://www.eolymp.com/en/problems/8962",
+        "problem_title": "The last the largest",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671799"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671796",
+        "problem_href": "https://www.eolymp.com/en/problems/8961",
+        "problem_title": "First the smallest",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671796"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671730",
+        "problem_href": "https://www.eolymp.com/en/problems/8959",
+        "problem_title": "Difference between maximum and minimum",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671730"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671724",
+        "problem_href": "https://www.eolymp.com/en/problems/8958",
+        "problem_title": "158",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671724"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671716",
+        "problem_href": "https://www.eolymp.com/en/problems/8957",
+        "problem_title": "Print array 5",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671716"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671712",
+        "problem_href": "https://www.eolymp.com/en/problems/8956",
+        "problem_title": "Print array 4",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671712"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671701",
+        "problem_href": "https://www.eolymp.com/en/problems/8955",
+        "problem_title": "Print array 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671701"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671669",
+        "problem_href": "https://www.eolymp.com/en/problems/8954",
+        "problem_title": "Print array 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671669"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671650",
+        "problem_href": "https://www.eolymp.com/en/problems/8953",
+        "problem_title": "Print array",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671650"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671359",
+        "problem_href": "https://www.eolymp.com/en/problems/8950",
+        "problem_title": "Template 5",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671359"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671309",
+        "problem_href": "https://www.eolymp.com/en/problems/8949",
+        "problem_title": "Template 4",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671309"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671291",
+        "problem_href": "https://www.eolymp.com/en/problems/8948",
+        "problem_title": "Template 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671291"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671213",
+        "problem_href": "https://www.eolymp.com/en/problems/8947",
+        "problem_title": "Template 2",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13671213"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671155",
+        "problem_href": "https://www.eolymp.com/en/problems/8946",
+        "problem_title": "Template",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671155"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671080",
+        "problem_href": "https://www.eolymp.com/en/problems/8945",
+        "problem_title": "*Frame 4",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671080"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671036",
+        "problem_href": "https://www.eolymp.com/en/problems/8944",
+        "problem_title": "*Frame 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671036"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13671026",
+        "problem_href": "https://www.eolymp.com/en/problems/8943",
+        "problem_title": "*Frame 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13671026"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13670990",
+        "problem_href": "https://www.eolymp.com/en/problems/8942",
+        "problem_title": "*Frame",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13670990"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13670977",
+        "problem_href": "https://www.eolymp.com/en/problems/8941",
+        "problem_title": "Matrix",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13670977"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13670966",
+        "problem_href": "https://www.eolymp.com/en/problems/8940",
+        "problem_title": "#Rectangle 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13670966"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13670962",
+        "problem_href": "https://www.eolymp.com/en/problems/8939",
+        "problem_title": "#Rectangle 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13670962"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13670960",
+        "problem_href": "https://www.eolymp.com/en/problems/8938",
+        "problem_title": "#Rectangle",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13670960"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13670958",
+        "problem_href": "https://www.eolymp.com/en/problems/8937",
+        "problem_title": "Strip",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13670958"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13670956",
+        "problem_href": "https://www.eolymp.com/en/problems/8936",
+        "problem_title": "Evens in the interval",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13670956"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13666002",
+        "problem_href": "https://www.eolymp.com/en/problems/11116",
+        "problem_title": "Number series",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13666002"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13665769",
+        "problem_href": "https://www.eolymp.com/en/problems/11116",
+        "problem_title": "Number series",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13665769"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13665768",
+        "problem_href": "https://www.eolymp.com/en/problems/11116",
+        "problem_title": "Number series",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13665768"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13665725",
+        "problem_href": "https://www.eolymp.com/en/problems/11116",
+        "problem_title": "Number series",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13665725"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13665699",
+        "problem_href": "https://www.eolymp.com/en/problems/11116",
+        "problem_title": "Number series",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13665699"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13665696",
+        "problem_href": "https://www.eolymp.com/en/problems/11116",
+        "problem_title": "Number series",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13665696"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13665695",
+        "problem_href": "https://www.eolymp.com/en/problems/11116",
+        "problem_title": "Number series",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13665695"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13665630",
+        "problem_href": "https://www.eolymp.com/en/problems/11116",
+        "problem_title": "Number series",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13665630"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13665398",
+        "problem_href": "https://www.eolymp.com/en/problems/9552",
+        "problem_title": "Salut!",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13665398"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13665096",
+        "problem_href": "https://www.eolymp.com/en/problems/122",
+        "problem_title": "Mountain routes",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13665096"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13663477",
+        "problem_href": "https://www.eolymp.com/en/problems/116",
+        "problem_title": "Long number (RU)",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13663477"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13663471",
+        "problem_href": "https://www.eolymp.com/en/problems/116",
+        "problem_title": "Long number (RU)",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13663471"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13655180",
+        "problem_href": "https://www.eolymp.com/en/problems/2303",
+        "problem_title": "Phone List",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13655180"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13654789",
+        "problem_href": "https://www.eolymp.com/en/problems/2100",
+        "problem_title": "\u0421\u043f\u0438\u0441\u043e\u043a",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13654789"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13654761",
+        "problem_href": "https://www.eolymp.com/en/problems/2100",
+        "problem_title": "\u0421\u043f\u0438\u0441\u043e\u043a",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13654761"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13653223",
+        "problem_href": "https://www.eolymp.com/en/problems/8932",
+        "problem_title": "Marathon 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13653223"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13653206",
+        "problem_href": "https://www.eolymp.com/en/problems/8933",
+        "problem_title": "Timer",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13653206"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13653189",
+        "problem_href": "https://www.eolymp.com/en/problems/8935",
+        "problem_title": "Odds in the interval",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13653189"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13653168",
+        "problem_href": "https://www.eolymp.com/en/problems/8934",
+        "problem_title": "Marathon 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13653168"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13652934",
+        "problem_href": "https://www.eolymp.com/en/problems/8927",
+        "problem_title": "Smallest divisor",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13652934"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13652645",
+        "problem_href": "https://www.eolymp.com/en/problems/8918",
+        "problem_title": "Complete squares",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13652645"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13652634",
+        "problem_href": "https://www.eolymp.com/en/problems/8917",
+        "problem_title": "Degrees of two",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13652634"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13652578",
+        "problem_href": "https://www.eolymp.com/en/problems/8915",
+        "problem_title": "All odd",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13652578"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642732",
+        "problem_href": "https://www.eolymp.com/en/problems/8900",
+        "problem_title": "Minimum among the larger",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642732"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642718",
+        "problem_href": "https://www.eolymp.com/en/problems/8900",
+        "problem_title": "Minimum among the larger",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642718"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642715",
+        "problem_href": "https://www.eolymp.com/en/problems/8897",
+        "problem_title": "Next number 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642715"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642653",
+        "problem_href": "https://www.eolymp.com/en/problems/8891",
+        "problem_title": "Exactly one condition out of two",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642653"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642617",
+        "problem_href": "https://www.eolymp.com/en/problems/8886",
+        "problem_title": "Previous even integer",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642617"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642614",
+        "problem_href": "https://www.eolymp.com/en/problems/8885",
+        "problem_title": "Previous odd integer",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642614"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642604",
+        "problem_href": "https://www.eolymp.com/en/problems/8877",
+        "problem_title": "Perfect square",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642604"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642592",
+        "problem_href": "https://www.eolymp.com/en/problems/8876",
+        "problem_title": "Integer",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642592"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642555",
+        "problem_href": "https://www.eolymp.com/en/problems/8855",
+        "problem_title": "Find the number 1",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642555"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642545",
+        "problem_href": "https://www.eolymp.com/en/problems/8850",
+        "problem_title": "\u0421\u0443\u043c\u0430 \u0446\u0438\u0444\u0440",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642545"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642537",
+        "problem_href": "https://www.eolymp.com/en/problems/8845",
+        "problem_title": "\u0412\u0438\u0434\u0430\u043b\u0438\u0442\u0438 \u0446\u0438\u0444\u0440\u0443 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642537"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642534",
+        "problem_href": "https://www.eolymp.com/en/problems/8844",
+        "problem_title": "\u0412\u0438\u0434\u0430\u043b\u0438\u0442\u0438 \u0446\u0438\u0444\u0440\u0443 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642534"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642504",
+        "problem_href": "https://www.eolymp.com/en/problems/8843",
+        "problem_title": "Delete the digit",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642504"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642490",
+        "problem_href": "https://www.eolymp.com/en/problems/8842",
+        "problem_title": "\u0426\u0438\u0444\u0440\u0430 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642490"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642486",
+        "problem_href": "https://www.eolymp.com/en/problems/8841",
+        "problem_title": "Digit 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642486"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642481",
+        "problem_href": "https://www.eolymp.com/en/problems/8840",
+        "problem_title": "\u0426\u0438\u0444\u0440\u0430",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642481"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642455",
+        "problem_href": "https://www.eolymp.com/en/problems/8837",
+        "problem_title": "Quotient and remainder",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642455"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642290",
+        "problem_href": "https://www.eolymp.com/en/problems/8825",
+        "problem_title": "Value of variable 1",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642290"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642274",
+        "problem_href": "https://www.eolymp.com/en/problems/8824",
+        "problem_title": "Find the number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642274"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642257",
+        "problem_href": "https://www.eolymp.com/en/problems/8816",
+        "problem_title": "\u0421\u0442\u0435\u043f\u0456\u043d\u044c \u0447\u0438\u0441\u043b\u0430",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642257"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642249",
+        "problem_href": "https://www.eolymp.com/en/problems/8815",
+        "problem_title": "Surface area and volume 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642249"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642231",
+        "problem_href": "https://www.eolymp.com/en/problems/8813",
+        "problem_title": "Surface area and volume",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642231"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642223",
+        "problem_href": "https://www.eolymp.com/en/problems/8812",
+        "problem_title": "Perimeter and area",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642223"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642219",
+        "problem_href": "https://www.eolymp.com/en/problems/8811",
+        "problem_title": "Product of two integers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642219"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642217",
+        "problem_href": "https://www.eolymp.com/en/problems/8810",
+        "problem_title": "School concert",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642217"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642200",
+        "problem_href": "https://www.eolymp.com/en/problems/8809",
+        "problem_title": "Marathon",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642200"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642194",
+        "problem_href": "https://www.eolymp.com/en/problems/8807",
+        "problem_title": "Opposite number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642194"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642177",
+        "problem_href": "https://www.eolymp.com/en/problems/8806",
+        "problem_title": "Number of students",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642177"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642172",
+        "problem_href": "https://www.eolymp.com/en/problems/8802",
+        "problem_title": "Previous number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642172"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642167",
+        "problem_href": "https://www.eolymp.com/en/problems/8801",
+        "problem_title": "Next number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642167"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642164",
+        "problem_href": "https://www.eolymp.com/en/problems/8800",
+        "problem_title": "Hello, Python!",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642164"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642136",
+        "problem_href": "https://www.eolymp.com/en/problems/8747",
+        "problem_title": "Sum divisibility",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13642136"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642076",
+        "problem_href": "https://www.eolymp.com/en/problems/8690",
+        "problem_title": "Function - 5",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642076"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642060",
+        "problem_href": "https://www.eolymp.com/en/problems/8689",
+        "problem_title": "Function - 4",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642060"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642055",
+        "problem_href": "https://www.eolymp.com/en/problems/8685",
+        "problem_title": "Arithmetical mean",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642055"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642037",
+        "problem_href": "https://www.eolymp.com/en/problems/8684",
+        "problem_title": "Sum and amount",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642037"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642030",
+        "problem_href": "https://www.eolymp.com/en/problems/8681",
+        "problem_title": "Product of nonzero digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642030"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13642013",
+        "problem_href": "https://www.eolymp.com/en/problems/8642",
+        "problem_title": "Four digit Armstrong numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13642013"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641901",
+        "problem_href": "https://www.eolymp.com/en/problems/8638",
+        "problem_title": "Append three",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641901"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641894",
+        "problem_href": "https://www.eolymp.com/en/problems/8629",
+        "problem_title": "At least one odd",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641894"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641867",
+        "problem_href": "https://www.eolymp.com/en/problems/8628",
+        "problem_title": "All digits are even",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641867"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641840",
+        "problem_href": "https://www.eolymp.com/en/problems/8630",
+        "problem_title": "Maximum digit in a number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641840"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641833",
+        "problem_href": "https://www.eolymp.com/en/problems/8627",
+        "problem_title": "Sum of neighbors",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641833"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641824",
+        "problem_href": "https://www.eolymp.com/en/problems/8626",
+        "problem_title": "Two digits in a row",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641824"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641818",
+        "problem_href": "https://www.eolymp.com/en/problems/8625",
+        "problem_title": "Delete one digit",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641818"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641796",
+        "problem_href": "https://www.eolymp.com/en/problems/8624",
+        "problem_title": "At least two equal digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641796"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641788",
+        "problem_href": "https://www.eolymp.com/en/problems/8623",
+        "problem_title": "Square of maximum",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641788"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641745",
+        "problem_href": "https://www.eolymp.com/en/problems/8622",
+        "problem_title": "Divisibility by digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641745"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641688",
+        "problem_href": "https://www.eolymp.com/en/problems/8621",
+        "problem_title": "Two identical digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641688"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641664",
+        "problem_href": "https://www.eolymp.com/en/problems/8620",
+        "problem_title": "Three identical digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641664"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641637",
+        "problem_href": "https://www.eolymp.com/en/problems/8619",
+        "problem_title": "Five-digit in order",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641637"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641600",
+        "problem_href": "https://www.eolymp.com/en/problems/8618",
+        "problem_title": "Four-digit palindrom",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641600"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641593",
+        "problem_href": "https://www.eolymp.com/en/problems/8615",
+        "problem_title": "Outside the interval",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641593"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641580",
+        "problem_href": "https://www.eolymp.com/en/problems/8614",
+        "problem_title": "Inside the interval",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641580"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641536",
+        "problem_href": "https://www.eolymp.com/en/problems/8612",
+        "problem_title": "Conditional statement - 4",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641536"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13641514",
+        "problem_href": "https://www.eolymp.com/en/problems/8611",
+        "problem_title": "Water and Ice",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13641514"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13638118",
+        "problem_href": "https://www.eolymp.com/en/problems/1609",
+        "problem_title": "The number of specified digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13638118"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13638088",
+        "problem_href": "https://www.eolymp.com/en/problems/8687",
+        "problem_title": "Perimeter of triangle",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13638088"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13638005",
+        "problem_href": "https://www.eolymp.com/en/problems/10443",
+        "problem_title": "Karabakh villages",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13638005"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13637991",
+        "problem_href": "https://www.eolymp.com/en/problems/3970",
+        "problem_title": "Mutants",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13637991"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620432",
+        "problem_href": "https://www.eolymp.com/en/problems/8608",
+        "problem_title": "sgn function",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620432"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620431",
+        "problem_href": "https://www.eolymp.com/en/problems/8608",
+        "problem_title": "sgn function",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620431"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620427",
+        "problem_href": "https://www.eolymp.com/en/problems/8608",
+        "problem_title": "sgn function",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620427"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620418",
+        "problem_href": "https://www.eolymp.com/en/problems/8607",
+        "problem_title": "Sum of squares of digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620418"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620410",
+        "problem_href": "https://www.eolymp.com/en/problems/8605",
+        "problem_title": "Sum of real numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620410"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620407",
+        "problem_href": "https://www.eolymp.com/en/problems/8606",
+        "problem_title": "Sum of some real numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620407"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620400",
+        "problem_href": "https://www.eolymp.com/en/problems/8604",
+        "problem_title": "Sum and product of real numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620400"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620397",
+        "problem_href": "https://www.eolymp.com/en/problems/8603",
+        "problem_title": "Sum and product 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620397"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620395",
+        "problem_href": "https://www.eolymp.com/en/problems/8600",
+        "problem_title": "Sum and product 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620395"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620392",
+        "problem_href": "https://www.eolymp.com/en/problems/8602",
+        "problem_title": "Third from right",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620392"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620388",
+        "problem_href": "https://www.eolymp.com/en/problems/8601",
+        "problem_title": "Swap the digits in two-digit integer",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620388"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620379",
+        "problem_href": "https://www.eolymp.com/en/problems/8592",
+        "problem_title": "Simple function",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620379"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620374",
+        "problem_href": "https://www.eolymp.com/en/problems/8599",
+        "problem_title": "Digits of 3-digit number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620374"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620364",
+        "problem_href": "https://www.eolymp.com/en/problems/8571",
+        "problem_title": "Count the letters",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620364"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620358",
+        "problem_href": "https://www.eolymp.com/en/problems/8570",
+        "problem_title": "Length of words",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620358"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620347",
+        "problem_href": "https://www.eolymp.com/en/problems/8544",
+        "problem_title": "Squares of numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620347"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620330",
+        "problem_href": "https://www.eolymp.com/en/problems/8546",
+        "problem_title": "Find the sum",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620330"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620322",
+        "problem_href": "https://www.eolymp.com/en/problems/8533",
+        "problem_title": "Numbers with different digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620322"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620317",
+        "problem_href": "https://www.eolymp.com/en/problems/8532",
+        "problem_title": "Print squares and cubes",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620317"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620315",
+        "problem_href": "https://www.eolymp.com/en/problems/8531",
+        "problem_title": "Divisibility by numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620315"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620310",
+        "problem_href": "https://www.eolymp.com/en/problems/8530",
+        "problem_title": "Print Matrix",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620310"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620297",
+        "problem_href": "https://www.eolymp.com/en/problems/8526",
+        "problem_title": "Conditional statement - 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620297"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620179",
+        "problem_href": "https://www.eolymp.com/en/problems/8525",
+        "problem_title": "Even negative numbers in matrix",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620179"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620173",
+        "problem_href": "https://www.eolymp.com/en/problems/8524",
+        "problem_title": "Sum of positive in matrix",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620173"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620171",
+        "problem_href": "https://www.eolymp.com/en/problems/8522",
+        "problem_title": "Divisibility",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620171"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620165",
+        "problem_href": "https://www.eolymp.com/en/problems/8521",
+        "problem_title": "Conditional statement - 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620165"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620025",
+        "problem_href": "https://www.eolymp.com/en/problems/8520",
+        "problem_title": "Conditional statement - 1",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620025"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13620018",
+        "problem_href": "https://www.eolymp.com/en/problems/8372",
+        "problem_title": "Create a triangle",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13620018"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13617154",
+        "problem_href": "https://www.eolymp.com/en/problems/7401",
+        "problem_title": "Stepan Friends",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13617154"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13617147",
+        "problem_href": "https://www.eolymp.com/en/problems/7460",
+        "problem_title": "Sightseeing trip",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13617147"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13617130",
+        "problem_href": "https://www.eolymp.com/en/problems/7943",
+        "problem_title": "Perimeter of rectangle",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13617130"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615546",
+        "problem_href": "https://www.eolymp.com/en/problems/7452",
+        "problem_title": "Print Linked List",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615546"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615527",
+        "problem_href": "https://www.eolymp.com/en/problems/6278",
+        "problem_title": "Street numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615527"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615461",
+        "problem_href": "https://www.eolymp.com/en/problems/6199",
+        "problem_title": "Oddities",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615461"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615455",
+        "problem_href": "https://www.eolymp.com/en/problems/6129",
+        "problem_title": "Deque with error protection",
+        "lang": "Java (openjdk 1.8)",
+        "id": "13615455"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615431",
+        "problem_href": "https://www.eolymp.com/en/problems/6128",
+        "problem_title": "Simple deque",
+        "lang": "Java (openjdk 1.17)",
+        "id": "13615431"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615416",
+        "problem_href": "https://www.eolymp.com/en/problems/6126",
+        "problem_title": "\u041e\u0447\u0435\u0440\u0435\u0434\u044c \u0441 \u0437\u0430\u0449\u0438\u0442\u043e\u0439 \u043e\u0442 \u043e\u0448\u0438\u0431\u043e\u043a",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615416"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615408",
+        "problem_href": "https://www.eolymp.com/en/problems/6125",
+        "problem_title": "\u041f\u0440\u043e\u0441\u0442\u0430\u044f \u043e\u0447\u0435\u0440\u0435\u0434\u044c",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615408"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615403",
+        "problem_href": "https://www.eolymp.com/en/problems/6059",
+        "problem_title": "Sum of Odd Sequence",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615403"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615386",
+        "problem_href": "https://www.eolymp.com/en/problems/6123",
+        "problem_title": "Stack with error protection",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615386"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615377",
+        "problem_href": "https://www.eolymp.com/en/problems/6122",
+        "problem_title": "Simple Stack",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615377"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615367",
+        "problem_href": "https://www.eolymp.com/en/problems/5087",
+        "problem_title": "Implement a stack",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615367"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615358",
+        "problem_href": "https://www.eolymp.com/en/problems/5328",
+        "problem_title": "Find Minimum",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615358"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615349",
+        "problem_href": "https://www.eolymp.com/en/problems/5325",
+        "problem_title": "Stand in order",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615349"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615345",
+        "problem_href": "https://www.eolymp.com/en/problems/5314",
+        "problem_title": "2^k + 2^n",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615345"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615339",
+        "problem_href": "https://www.eolymp.com/en/problems/5175",
+        "problem_title": "The last digit",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615339"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615334",
+        "problem_href": "https://www.eolymp.com/en/problems/5133",
+        "problem_title": "abc",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615334"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615307",
+        "problem_href": "https://www.eolymp.com/en/problems/4718",
+        "problem_title": "\u041f\u0440\u0438\u0432\u0435\u0442, \u0413\u0430\u0440\u0440\u0438!",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615307"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615299",
+        "problem_href": "https://www.eolymp.com/en/problems/4751",
+        "problem_title": "Diagonals",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615299"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615253",
+        "problem_href": "https://www.eolymp.com/en/problems/4717",
+        "problem_title": "Divide the apples - 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615253"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615249",
+        "problem_href": "https://www.eolymp.com/en/problems/4716",
+        "problem_title": "Divide the apples - 1",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615249"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615231",
+        "problem_href": "https://www.eolymp.com/en/problems/4749",
+        "problem_title": "Theater revenue",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615231"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615207",
+        "problem_href": "https://www.eolymp.com/en/problems/4281",
+        "problem_title": "Inattention",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13615207"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13615203",
+        "problem_href": "https://www.eolymp.com/en/problems/4281",
+        "problem_title": "Inattention",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13615203"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614266",
+        "problem_href": "https://www.eolymp.com/en/problems/3867",
+        "problem_title": "Lazy Misha",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614266"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614252",
+        "problem_href": "https://www.eolymp.com/en/problems/3002",
+        "problem_title": "Tournament",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614252"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614193",
+        "problem_href": "https://www.eolymp.com/en/problems/2860",
+        "problem_title": "Sum of integers on the interval",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614193"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614161",
+        "problem_href": "https://www.eolymp.com/en/problems/2663",
+        "problem_title": "Bubble sort",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614161"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614141",
+        "problem_href": "https://www.eolymp.com/en/problems/2606",
+        "problem_title": "Minimum and maximum",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614141"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614125",
+        "problem_href": "https://www.eolymp.com/en/problems/2218",
+        "problem_title": "Coins",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614125"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614108",
+        "problem_href": "https://www.eolymp.com/en/problems/2165",
+        "problem_title": "Extra spaces",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614108"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614088",
+        "problem_href": "https://www.eolymp.com/en/problems/2164",
+        "problem_title": "Julius Caesar Cyfer",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614088"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614078",
+        "problem_href": "https://www.eolymp.com/en/problems/2162",
+        "problem_title": "Palindrome",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614078"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614066",
+        "problem_href": "https://www.eolymp.com/en/problems/2098",
+        "problem_title": "Invertor",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614066"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614048",
+        "problem_href": "https://www.eolymp.com/en/problems/2044",
+        "problem_title": "Month",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614048"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13614040",
+        "problem_href": "https://www.eolymp.com/en/problems/2042",
+        "problem_title": "Monthly and quarterly",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13614040"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13613999",
+        "problem_href": "https://www.eolymp.com/en/problems/1344",
+        "problem_title": "Personal files",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13613999"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13613995",
+        "problem_href": "https://www.eolymp.com/en/problems/1610",
+        "problem_title": "Rabbits in the cells",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13613995"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13613970",
+        "problem_href": "https://www.eolymp.com/en/problems/1962",
+        "problem_title": "The results of the Olympiad",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13613970"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13605508",
+        "problem_href": "https://www.eolymp.com/en/problems/1607",
+        "problem_title": "The number in reverse order",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13605508"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13605499",
+        "problem_href": "https://www.eolymp.com/en/problems/1605",
+        "problem_title": "Second digit of the number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13605499"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13605497",
+        "problem_href": "https://www.eolymp.com/en/problems/1605",
+        "problem_title": "Second digit of the number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13605497"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13605462",
+        "problem_href": "https://www.eolymp.com/en/problems/1658",
+        "problem_title": "Factorial",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13605462"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13605454",
+        "problem_href": "https://www.eolymp.com/en/problems/1623",
+        "problem_title": "Even and odd numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13605454"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13539780",
+        "problem_href": "https://www.eolymp.com/en/problems/11011",
+        "problem_title": "\u0420\u0456\u0437\u043d\u0438\u0446\u044f \u0447\u0438\u0441\u0435\u043b",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13539780"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13454326",
+        "problem_href": "https://www.eolymp.com/en/problems/9628",
+        "problem_title": "Frog",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13454326"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13454073",
+        "problem_href": "https://www.eolymp.com/en/problems/1619",
+        "problem_title": "House Robber",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13454073"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13453847",
+        "problem_href": "https://www.eolymp.com/en/problems/1560",
+        "problem_title": "Decreasing Number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13453847"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13453533",
+        "problem_href": "https://www.eolymp.com/en/problems/1560",
+        "problem_title": "Decreasing Number",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13453533"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13425219",
+        "problem_href": "https://www.eolymp.com/en/problems/6583",
+        "problem_title": "Counting Ones",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13425219"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13425131",
+        "problem_href": "https://www.eolymp.com/en/problems/6583",
+        "problem_title": "Counting Ones",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13425131"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13424979",
+        "problem_href": "https://www.eolymp.com/en/problems/5973",
+        "problem_title": "Out of the line!",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13424979"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13393116",
+        "problem_href": "https://www.eolymp.com/en/problems/1343",
+        "problem_title": "Bad Substring",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13393116"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13392759",
+        "problem_href": "https://www.eolymp.com/en/problems/1517",
+        "problem_title": "Simple Addition",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13392759"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13390723",
+        "problem_href": "https://www.eolymp.com/en/problems/3984",
+        "problem_title": "Sum of Squares with Segment Tree",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13390723"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13359495",
+        "problem_href": "https://www.eolymp.com/en/problems/1520",
+        "problem_title": "Odd Divisors",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13359495"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13359492",
+        "problem_href": "https://www.eolymp.com/en/problems/1520",
+        "problem_title": "Odd Divisors",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13359492"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13359456",
+        "problem_href": "https://www.eolymp.com/en/problems/8304",
+        "problem_title": "Fun function",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13359456"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13359436",
+        "problem_href": "https://www.eolymp.com/en/problems/8304",
+        "problem_title": "Fun function",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13359436"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13359350",
+        "problem_href": "https://www.eolymp.com/en/problems/6155",
+        "problem_title": "Wrong monks",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13359350"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13359341",
+        "problem_href": "https://www.eolymp.com/en/problems/6155",
+        "problem_title": "Wrong monks",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13359341"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13358941",
+        "problem_href": "https://www.eolymp.com/en/problems/10296",
+        "problem_title": "Recursive function 1",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13358941"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13358918",
+        "problem_href": "https://www.eolymp.com/en/problems/10165",
+        "problem_title": "Function f(n)",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13358918"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13273397",
+        "problem_href": "https://www.eolymp.com/en/problems/11362",
+        "problem_title": "",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13273397"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13273385",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13273385"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13270452",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13270452"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13270447",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13270447"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13270435",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13270435"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13261375",
+        "problem_href": "https://www.eolymp.com/en/problems/9559",
+        "problem_title": "Grid with equal xor",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13261375"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13261286",
+        "problem_href": "https://www.eolymp.com/en/problems/9559",
+        "problem_title": "Grid with equal xor",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13261286"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259319",
+        "problem_href": "https://www.eolymp.com/en/problems/2015",
+        "problem_title": "Game XOR",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13259319"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259278",
+        "problem_href": "https://www.eolymp.com/en/problems/2015",
+        "problem_title": "Game XOR",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13259278"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259225",
+        "problem_href": "https://www.eolymp.com/en/problems/4142",
+        "problem_title": "The Great XOR",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13259225"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259219",
+        "problem_href": "https://www.eolymp.com/en/problems/4142",
+        "problem_title": "The Great XOR",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13259219"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259203",
+        "problem_href": "https://www.eolymp.com/en/problems/4142",
+        "problem_title": "The Great XOR",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13259203"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259195",
+        "problem_href": "https://www.eolymp.com/en/problems/4142",
+        "problem_title": "The Great XOR",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13259195"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259103",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13259103"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259102",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13259102"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259093",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13259093"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259088",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13259088"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259015",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13259015"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259009",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13259009"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259008",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13259008"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13259001",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13259001"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13258952",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13258952"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13258949",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13258949"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13258935",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13258935"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13258876",
+        "problem_href": "https://www.eolymp.com/en/problems/2262",
+        "problem_title": "Explicit Formula",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13258876"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13252020",
+        "problem_href": "https://www.eolymp.com/en/problems/1550",
+        "problem_title": "Bitwise Equations",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13252020"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13232113",
+        "problem_href": "https://www.eolymp.com/en/problems/9098",
+        "problem_title": "XOR sum",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13232113"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13232048",
+        "problem_href": "https://www.eolymp.com/en/problems/9098",
+        "problem_title": "XOR sum",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13232048"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13231765",
+        "problem_href": "https://www.eolymp.com/en/problems/11285",
+        "problem_title": "Find XOR on a segment",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13231765"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13224902",
+        "problem_href": "https://www.eolymp.com/en/problems/4739",
+        "problem_title": "Sieve of Eratosthenes",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13224902"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13224113",
+        "problem_href": "https://www.eolymp.com/en/problems/1",
+        "problem_title": "Simple problem",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13224113"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13196308",
+        "problem_href": "https://www.eolymp.com/en/problems/8304",
+        "problem_title": "Fun function",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13196308"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13196057",
+        "problem_href": "https://www.eolymp.com/en/problems/3936",
+        "problem_title": "Towers of Hanoi",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13196057"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13187653",
+        "problem_href": "https://www.eolymp.com/en/problems/10296",
+        "problem_title": "Recursive function 1",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13187653"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13187272",
+        "problem_href": "https://www.eolymp.com/en/problems/1211",
+        "problem_title": "Infinite Sequence",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13187272"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13187266",
+        "problem_href": "https://www.eolymp.com/en/problems/1211",
+        "problem_title": "Infinite Sequence",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13187266"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13175068",
+        "problem_href": "https://www.eolymp.com/en/problems/8295",
+        "problem_title": "Fibonacci strings generation",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13175068"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13174952",
+        "problem_href": "https://www.eolymp.com/en/problems/5092",
+        "problem_title": "Honeycomb",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13174952"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13174931",
+        "problem_href": "https://www.eolymp.com/en/problems/5091",
+        "problem_title": "Explosive containers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13174931"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13174372",
+        "problem_href": "https://www.eolymp.com/en/problems/6941",
+        "problem_title": "Sum of GCD",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13174372"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13173986",
+        "problem_href": "https://www.eolymp.com/en/problems/7363",
+        "problem_title": "Sum of fractions",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13173986"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13173983",
+        "problem_href": "https://www.eolymp.com/en/problems/7363",
+        "problem_title": "Sum of fractions",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13173983"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13173627",
+        "problem_href": "https://www.eolymp.com/en/problems/11394",
+        "problem_title": "",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13173627"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13173603",
+        "problem_href": "https://www.eolymp.com/en/problems/11393",
+        "problem_title": "",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13173603"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13173579",
+        "problem_href": "https://www.eolymp.com/en/problems/11392",
+        "problem_title": "Problem from Lisic",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13173579"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13164127",
+        "problem_href": "https://www.eolymp.com/en/problems/3843",
+        "problem_title": "Primes",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13164127"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13164107",
+        "problem_href": "https://www.eolymp.com/en/problems/3843",
+        "problem_title": "Primes",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13164107"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13163847",
+        "problem_href": "https://www.eolymp.com/en/problems/4739",
+        "problem_title": "Sieve of Eratosthenes",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13163847"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13163809",
+        "problem_href": "https://www.eolymp.com/en/problems/572",
+        "problem_title": "The Lesson of mathematics",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13163809"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13163737",
+        "problem_href": "https://www.eolymp.com/en/problems/1616",
+        "problem_title": "Prime number?",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13163737"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13163668",
+        "problem_href": "https://www.eolymp.com/en/problems/8295",
+        "problem_title": "Fibonacci strings generation",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13163668"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13163609",
+        "problem_href": "https://www.eolymp.com/en/problems/5092",
+        "problem_title": "Honeycomb",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13163609"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13163564",
+        "problem_href": "https://www.eolymp.com/en/problems/5091",
+        "problem_title": "Explosive containers",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13163564"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13152624",
+        "problem_href": "https://www.eolymp.com/en/problems/4469",
+        "problem_title": "Domino",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13152624"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13152557",
+        "problem_href": "https://www.eolymp.com/en/problems/4469",
+        "problem_title": "Domino",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13152557"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13152515",
+        "problem_href": "https://www.eolymp.com/en/problems/4469",
+        "problem_title": "Domino",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13152515"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13152506",
+        "problem_href": "https://www.eolymp.com/en/problems/4469",
+        "problem_title": "Domino",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13152506"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13152505",
+        "problem_href": "https://www.eolymp.com/en/problems/4469",
+        "problem_title": "Domino",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13152505"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13152495",
+        "problem_href": "https://www.eolymp.com/en/problems/4469",
+        "problem_title": "Domino",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13152495"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13152273",
+        "problem_href": "https://www.eolymp.com/en/problems/263",
+        "problem_title": "Three ones",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13152273"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13151867",
+        "problem_href": "https://www.eolymp.com/en/problems/4730",
+        "problem_title": "Fibonacci",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13151867"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13151842",
+        "problem_href": "https://www.eolymp.com/en/problems/4730",
+        "problem_title": "Fibonacci",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13151842"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13151826",
+        "problem_href": "https://www.eolymp.com/en/problems/6941",
+        "problem_title": "Sum of GCD",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13151826"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13151809",
+        "problem_href": "https://www.eolymp.com/en/problems/6941",
+        "problem_title": "Sum of GCD",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13151809"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13147398",
+        "problem_href": "https://www.eolymp.com/en/problems/136",
+        "problem_title": "The Segment",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13147398"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13147374",
+        "problem_href": "https://www.eolymp.com/en/problems/136",
+        "problem_title": "The Segment",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13147374"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13147182",
+        "problem_href": "https://www.eolymp.com/en/problems/9592",
+        "problem_title": "Concatenation of two palindromes",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13147182"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13146796",
+        "problem_href": "https://www.eolymp.com/en/problems/9592",
+        "problem_title": "Concatenation of two palindromes",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13146796"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13146731",
+        "problem_href": "https://www.eolymp.com/en/problems/6311",
+        "problem_title": "\u041a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13146731"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13146634",
+        "problem_href": "https://www.eolymp.com/en/problems/5316",
+        "problem_title": "Invert a bit",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13146634"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13146588",
+        "problem_href": "https://www.eolymp.com/en/problems/5319",
+        "problem_title": "Reset a bit",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13146588"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13146569",
+        "problem_href": "https://www.eolymp.com/en/problems/5319",
+        "problem_title": "Reset a bit",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13146569"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13143201",
+        "problem_href": "https://www.eolymp.com/en/problems/9557",
+        "problem_title": "Bins and balls",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13143201"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13143192",
+        "problem_href": "https://www.eolymp.com/en/problems/9557",
+        "problem_title": "Bins and balls",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13143192"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13143172",
+        "problem_href": "https://www.eolymp.com/en/problems/9557",
+        "problem_title": "Bins and balls",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13143172"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13142997",
+        "problem_href": "https://www.eolymp.com/en/problems/9644",
+        "problem_title": "Sum of powers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13142997"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13142834",
+        "problem_href": "https://www.eolymp.com/en/problems/5198",
+        "problem_title": "Modular Exponentiation",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13142834"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13142610",
+        "problem_href": "https://www.eolymp.com/en/problems/9052",
+        "problem_title": "Shot at a target",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13142610"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13142594",
+        "problem_href": "https://www.eolymp.com/en/problems/9052",
+        "problem_title": "Shot at a target",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13142594"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13142301",
+        "problem_href": "https://www.eolymp.com/en/problems/5318",
+        "problem_title": "Reset the significant bits",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13142301"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13142201",
+        "problem_href": "https://www.eolymp.com/en/problems/1648",
+        "problem_title": "Fenwick Function",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13142201"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13142049",
+        "problem_href": "https://www.eolymp.com/en/problems/5050",
+        "problem_title": "Degree of two",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13142049"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13142026",
+        "problem_href": "https://www.eolymp.com/en/problems/1753",
+        "problem_title": "Lowest Bit",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13142026"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13141846",
+        "problem_href": "https://www.eolymp.com/en/problems/5868",
+        "problem_title": "A xor B",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13141846"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13141374",
+        "problem_href": "https://www.eolymp.com/en/problems/5317",
+        "problem_title": "Bit value",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13141374"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13141274",
+        "problem_href": "https://www.eolymp.com/en/problems/5315",
+        "problem_title": "Set a bit",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13141274"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13141272",
+        "problem_href": "https://www.eolymp.com/en/problems/1612",
+        "problem_title": "Change the one",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13141272"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13141236",
+        "problem_href": "https://www.eolymp.com/en/problems/5315",
+        "problem_title": "Set a bit",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13141236"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13131246",
+        "problem_href": "https://www.eolymp.com/en/problems/11147",
+        "problem_title": "Bomb disposal",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13131246"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13131245",
+        "problem_href": "https://www.eolymp.com/en/problems/11147",
+        "problem_title": "Bomb disposal",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13131245"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13131231",
+        "problem_href": "https://www.eolymp.com/en/problems/11147",
+        "problem_title": "Bomb disposal",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13131231"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13131209",
+        "problem_href": "https://www.eolymp.com/en/problems/11147",
+        "problem_title": "Bomb disposal",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13131209"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13131164",
+        "problem_href": "https://www.eolymp.com/en/problems/11147",
+        "problem_title": "Bomb disposal",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13131164"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13130624",
+        "problem_href": "https://www.eolymp.com/en/problems/9632",
+        "problem_title": "The best team",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13130624"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13130598",
+        "problem_href": "https://www.eolymp.com/en/problems/609",
+        "problem_title": "Water",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13130598"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13130508",
+        "problem_href": "https://www.eolymp.com/en/problems/10672",
+        "problem_title": "University Admission",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13130508"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13130497",
+        "problem_href": "https://www.eolymp.com/en/problems/10672",
+        "problem_title": "University Admission",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "13130497"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13130494",
+        "problem_href": "https://www.eolymp.com/en/problems/10672",
+        "problem_title": "University Admission",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13130494"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13129963",
+        "problem_href": "https://www.eolymp.com/en/problems/10672",
+        "problem_title": "University Admission",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13129963"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13129885",
+        "problem_href": "https://www.eolymp.com/en/problems/10672",
+        "problem_title": "University Admission",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13129885"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13129863",
+        "problem_href": "https://www.eolymp.com/en/problems/10672",
+        "problem_title": "University Admission",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13129863"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13123407",
+        "problem_href": "https://www.eolymp.com/en/problems/5198",
+        "problem_title": "Modular Exponentiation",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13123407"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13123389",
+        "problem_href": "https://www.eolymp.com/en/problems/10405",
+        "problem_title": "Teleportation",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13123389"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13122313",
+        "problem_href": "https://www.eolymp.com/en/problems/10452",
+        "problem_title": "The essay",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13122313"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13121220",
+        "problem_href": "https://www.eolymp.com/en/problems/8377",
+        "problem_title": "Persistent Number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13121220"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13121053",
+        "problem_href": "https://www.eolymp.com/en/problems/1603",
+        "problem_title": "The sum of digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13121053"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111879",
+        "problem_href": "https://www.eolymp.com/en/problems/141",
+        "problem_title": "The minimal sum of digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111879"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111630",
+        "problem_href": "https://www.eolymp.com/en/problems/5123",
+        "problem_title": "Hailstone HOTPO",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111630"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111605",
+        "problem_href": "https://www.eolymp.com/en/problems/5123",
+        "problem_title": "Hailstone HOTPO",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111605"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111601",
+        "problem_href": "https://www.eolymp.com/en/problems/5123",
+        "problem_title": "Hailstone HOTPO",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13111601"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111575",
+        "problem_href": "https://www.eolymp.com/en/problems/5123",
+        "problem_title": "Hailstone HOTPO",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111575"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111555",
+        "problem_href": "https://www.eolymp.com/en/problems/5123",
+        "problem_title": "Hailstone HOTPO",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111555"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111457",
+        "problem_href": "https://www.eolymp.com/en/problems/5123",
+        "problem_title": "Hailstone HOTPO",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111457"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111434",
+        "problem_href": "https://www.eolymp.com/en/problems/5123",
+        "problem_title": "Hailstone HOTPO",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13111434"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111389",
+        "problem_href": "https://www.eolymp.com/en/problems/5123",
+        "problem_title": "Hailstone HOTPO",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13111389"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111382",
+        "problem_href": "https://www.eolymp.com/en/problems/5123",
+        "problem_title": "Hailstone HOTPO",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13111382"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111229",
+        "problem_href": "https://www.eolymp.com/en/problems/1601",
+        "problem_title": "GCD of two numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111229"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111228",
+        "problem_href": "https://www.eolymp.com/en/problems/1601",
+        "problem_title": "GCD of two numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111228"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111222",
+        "problem_href": "https://www.eolymp.com/en/problems/1602",
+        "problem_title": "LCM of two integers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111222"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13111134",
+        "problem_href": "https://www.eolymp.com/en/problems/3260",
+        "problem_title": "How Many?",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13111134"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13099200",
+        "problem_href": "https://www.eolymp.com/en/problems/11244",
+        "problem_title": "Sum of two",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13099200"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13098943",
+        "problem_href": "https://www.eolymp.com/en/problems/873",
+        "problem_title": "Palindromes",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13098943"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13034890",
+        "problem_href": "https://www.eolymp.com/en/problems/9017",
+        "problem_title": "Binary search - 1",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13034890"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13033775",
+        "problem_href": "https://www.eolymp.com/en/problems/9016",
+        "problem_title": "Binary search",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13033775"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13025978",
+        "problem_href": "https://www.eolymp.com/en/problems/9640",
+        "problem_title": "Dino and fetters",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13025978"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13025722",
+        "problem_href": "https://www.eolymp.com/en/problems/937",
+        "problem_title": "Product of Array Except Self",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13025722"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13025721",
+        "problem_href": "https://www.eolymp.com/en/problems/937",
+        "problem_title": "Product of Array Except Self",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13025721"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13025444",
+        "problem_href": "https://www.eolymp.com/en/problems/937",
+        "problem_title": "Product of Array Except Self",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13025444"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13022875",
+        "problem_href": "https://www.eolymp.com/en/problems/11399",
+        "problem_title": "Lucky numbers",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13022875"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021980",
+        "problem_href": "https://www.eolymp.com/en/problems/66",
+        "problem_title": "The Directors\u2019 Visitors",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021980"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021829",
+        "problem_href": "https://www.eolymp.com/en/problems/66",
+        "problem_title": "The Directors\u2019 Visitors",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021829"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021765",
+        "problem_href": "https://www.eolymp.com/en/problems/8788",
+        "problem_title": "Coins",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021765"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021736",
+        "problem_href": "https://www.eolymp.com/en/problems/8788",
+        "problem_title": "Coins",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021736"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021718",
+        "problem_href": "https://www.eolymp.com/en/problems/8788",
+        "problem_title": "Coins",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021718"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021717",
+        "problem_href": "https://www.eolymp.com/en/problems/8788",
+        "problem_title": "Coins",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021717"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021712",
+        "problem_href": "https://www.eolymp.com/en/problems/8788",
+        "problem_title": "Coins",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021712"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021583",
+        "problem_href": "https://www.eolymp.com/en/problems/609",
+        "problem_title": "Water",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021583"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021489",
+        "problem_href": "https://www.eolymp.com/en/problems/138",
+        "problem_title": "Cash machine",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021489"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13021483",
+        "problem_href": "https://www.eolymp.com/en/problems/138",
+        "problem_title": "Cash machine",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13021483"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13018513",
+        "problem_href": "https://www.eolymp.com/en/problems/609",
+        "problem_title": "Water",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13018513"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13018347",
+        "problem_href": "https://www.eolymp.com/en/problems/8788",
+        "problem_title": "Coins",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13018347"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13017410",
+        "problem_href": "https://www.eolymp.com/en/problems/138",
+        "problem_title": "Cash machine",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13017410"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13017281",
+        "problem_href": "https://www.eolymp.com/en/problems/4738",
+        "problem_title": "Sorting",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13017281"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13017273",
+        "problem_href": "https://www.eolymp.com/en/problems/8656",
+        "problem_title": "Sort the points by coordinates",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13017273"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13017260",
+        "problem_href": "https://www.eolymp.com/en/problems/1462",
+        "problem_title": "Tricky Sorting",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13017260"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13017236",
+        "problem_href": "https://www.eolymp.com/en/problems/972",
+        "problem_title": "Sorting time",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13017236"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13017211",
+        "problem_href": "https://www.eolymp.com/en/problems/10263",
+        "problem_title": "Sort the people",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13017211"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13005995",
+        "problem_href": "https://www.eolymp.com/en/problems/20",
+        "problem_title": "How many times to repeat?",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13005995"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004911",
+        "problem_href": "https://www.eolymp.com/en/problems/11405",
+        "problem_title": "Strange sequence",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13004911"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004380",
+        "problem_href": "https://www.eolymp.com/en/problems/11405",
+        "problem_title": "Strange sequence",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13004380"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004371",
+        "problem_href": "https://www.eolymp.com/en/problems/11405",
+        "problem_title": "Strange sequence",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13004371"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004350",
+        "problem_href": "https://www.eolymp.com/en/problems/11405",
+        "problem_title": "Strange sequence",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13004350"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004298",
+        "problem_href": "https://www.eolymp.com/en/problems/11403",
+        "problem_title": "Remainders",
+        "lang": "Python 3 (pypy 7.3)",
+        "id": "13004298"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004295",
+        "problem_href": "https://www.eolymp.com/en/problems/11403",
+        "problem_title": "Remainders",
+        "lang": "Python 3 (python 3.8)",
+        "id": "13004295"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004221",
+        "problem_href": "https://www.eolymp.com/en/problems/11402",
+        "problem_title": "Hypnotic experiment",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13004221"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004148",
+        "problem_href": "https://www.eolymp.com/en/problems/11400",
+        "problem_title": "Balance scale",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13004148"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004120",
+        "problem_href": "https://www.eolymp.com/en/problems/11400",
+        "problem_title": "Balance scale",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13004120"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004111",
+        "problem_href": "https://www.eolymp.com/en/problems/11398",
+        "problem_title": "Colorful baloons",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13004111"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004102",
+        "problem_href": "https://www.eolymp.com/en/problems/11397",
+        "problem_title": "Interesting sequence",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13004102"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13004003",
+        "problem_href": "https://www.eolymp.com/en/problems/11399",
+        "problem_title": "Lucky numbers",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13004003"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/13003988",
+        "problem_href": "https://www.eolymp.com/en/problems/11396",
+        "problem_title": "Pay the Bill",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "13003988"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12994918",
+        "problem_href": "https://www.eolymp.com/en/problems/11398",
+        "problem_title": "Colorful baloons",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12994918"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12994269",
+        "problem_href": "https://www.eolymp.com/en/problems/11397",
+        "problem_title": "Interesting sequence",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12994269"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12993159",
+        "problem_href": "https://www.eolymp.com/en/problems/11401",
+        "problem_title": "Game",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12993159"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12993063",
+        "problem_href": "https://www.eolymp.com/en/problems/11404",
+        "problem_title": "Secret password",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12993063"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12993002",
+        "problem_href": "https://www.eolymp.com/en/problems/11397",
+        "problem_title": "Interesting sequence",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12993002"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12992884",
+        "problem_href": "https://www.eolymp.com/en/problems/11396",
+        "problem_title": "Pay the Bill",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12992884"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12964104",
+        "problem_href": "https://www.eolymp.com/en/problems/1286",
+        "problem_title": "Tuck-shop",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12964104"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12964094",
+        "problem_href": "https://www.eolymp.com/en/problems/1265",
+        "problem_title": "Egypt",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12964094"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12964093",
+        "problem_href": "https://www.eolymp.com/en/problems/1265",
+        "problem_title": "Egypt",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12964093"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12964014",
+        "problem_href": "https://www.eolymp.com/en/problems/1141",
+        "problem_title": "Median of numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12964014"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963997",
+        "problem_href": "https://www.eolymp.com/en/problems/1024",
+        "problem_title": "Hello World!",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963997"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963986",
+        "problem_href": "https://www.eolymp.com/en/problems/1000",
+        "problem_title": "a + b Problem",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963986"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963963",
+        "problem_href": "https://www.eolymp.com/en/problems/990",
+        "problem_title": "12345",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963963"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963955",
+        "problem_href": "https://www.eolymp.com/en/problems/972",
+        "problem_title": "Sorting time",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963955"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963902",
+        "problem_href": "https://www.eolymp.com/en/problems/959",
+        "problem_title": "Sum of digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963902"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963898",
+        "problem_href": "https://www.eolymp.com/en/problems/957",
+        "problem_title": "Square root",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963898"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963883",
+        "problem_href": "https://www.eolymp.com/en/problems/955",
+        "problem_title": "The square of sum",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963883"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963863",
+        "problem_href": "https://www.eolymp.com/en/problems/953",
+        "problem_title": "Remainder",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963863"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963851",
+        "problem_href": "https://www.eolymp.com/en/problems/949",
+        "problem_title": "Two digits from four digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963851"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963840",
+        "problem_href": "https://www.eolymp.com/en/problems/945",
+        "problem_title": "Without the middle",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963840"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963828",
+        "problem_href": "https://www.eolymp.com/en/problems/943",
+        "problem_title": "Digits permutation in 3-digit integer",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963828"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963798",
+        "problem_href": "https://www.eolymp.com/en/problems/939",
+        "problem_title": "The square of the sum",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963798"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963780",
+        "problem_href": "https://www.eolymp.com/en/problems/935",
+        "problem_title": "Decomposition of three digit number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963780"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963764",
+        "problem_href": "https://www.eolymp.com/en/problems/928",
+        "problem_title": "The sum of the largest and the smallest",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963764"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963753",
+        "problem_href": "https://www.eolymp.com/en/problems/927",
+        "problem_title": "Number of toys",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963753"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963732",
+        "problem_href": "https://www.eolymp.com/en/problems/923",
+        "problem_title": "Season",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963732"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963722",
+        "problem_href": "https://www.eolymp.com/en/problems/922",
+        "problem_title": "Shift the elements to the right",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963722"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12963714",
+        "problem_href": "https://www.eolymp.com/en/problems/921",
+        "problem_title": "Negative elements",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12963714"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12959865",
+        "problem_href": "https://www.eolymp.com/en/problems/1213",
+        "problem_title": "Massive Numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12959865"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12959856",
+        "problem_href": "https://www.eolymp.com/en/problems/1213",
+        "problem_title": "Massive Numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12959856"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12959787",
+        "problem_href": "https://www.eolymp.com/en/problems/1213",
+        "problem_title": "Massive Numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12959787"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12950718",
+        "problem_href": "https://www.eolymp.com/en/problems/9002",
+        "problem_title": "Chocolate lover",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12950718"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12950621",
+        "problem_href": "https://www.eolymp.com/en/problems/9002",
+        "problem_title": "Chocolate lover",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12950621"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12950444",
+        "problem_href": "https://www.eolymp.com/en/problems/8594",
+        "problem_title": "Between A and B",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12950444"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12950421",
+        "problem_href": "https://www.eolymp.com/en/problems/8594",
+        "problem_title": "Between A and B",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12950421"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12950292",
+        "problem_href": "https://www.eolymp.com/en/problems/9001",
+        "problem_title": "Big product",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12950292"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12950284",
+        "problem_href": "https://www.eolymp.com/en/problems/9001",
+        "problem_title": "Big product",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12950284"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12950191",
+        "problem_href": "https://www.eolymp.com/en/problems/11113",
+        "problem_title": "Bouquet of Flowers for Juniors",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12950191"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12950170",
+        "problem_href": "https://www.eolymp.com/en/problems/11112",
+        "problem_title": "Strange Sequence",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12950170"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12949666",
+        "problem_href": "https://www.eolymp.com/en/problems/8960",
+        "problem_title": "160",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12949666"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12948803",
+        "problem_href": "https://www.eolymp.com/en/problems/9632",
+        "problem_title": "The best team",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12948803"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12948435",
+        "problem_href": "https://www.eolymp.com/en/problems/9634",
+        "problem_title": "Go to the finals",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12948435"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12948097",
+        "problem_href": "https://www.eolymp.com/en/problems/8371",
+        "problem_title": "Even or Odd",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12948097"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12948088",
+        "problem_href": "https://www.eolymp.com/en/problems/8316",
+        "problem_title": "Sort the letters",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12948088"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12948058",
+        "problem_href": "https://www.eolymp.com/en/problems/8280",
+        "problem_title": "The number of even divisors",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12948058"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12948041",
+        "problem_href": "https://www.eolymp.com/en/problems/8254",
+        "problem_title": "Hotel rooms",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12948041"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12948018",
+        "problem_href": "https://www.eolymp.com/en/problems/8243",
+        "problem_title": "The first digit of the number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12948018"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12948003",
+        "problem_href": "https://www.eolymp.com/en/problems/8242",
+        "problem_title": "Positive, negative or zero",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12948003"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947989",
+        "problem_href": "https://www.eolymp.com/en/problems/8241",
+        "problem_title": "Function - 3",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947989"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947977",
+        "problem_href": "https://www.eolymp.com/en/problems/8240",
+        "problem_title": "Function - 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947977"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947961",
+        "problem_href": "https://www.eolymp.com/en/problems/8239",
+        "problem_title": "Function - 1",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947961"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947890",
+        "problem_href": "https://www.eolymp.com/en/problems/8236",
+        "problem_title": "Sort evens and odds",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947890"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947832",
+        "problem_href": "https://www.eolymp.com/en/problems/11151",
+        "problem_title": "Sum a + b",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947832"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947827",
+        "problem_href": "https://www.eolymp.com/en/problems/11152",
+        "problem_title": "Last symbol",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947827"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947569",
+        "problem_href": "https://www.eolymp.com/en/problems/917",
+        "problem_title": "Twice the minimum",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947569"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947547",
+        "problem_href": "https://www.eolymp.com/en/problems/916",
+        "problem_title": "Interesting Product",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947547"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947465",
+        "problem_href": "https://www.eolymp.com/en/problems/915",
+        "problem_title": "Rectangular or not?",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947465"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947410",
+        "problem_href": "https://www.eolymp.com/en/problems/914",
+        "problem_title": "Maximum of absolute values",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947410"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947344",
+        "problem_href": "https://www.eolymp.com/en/problems/910",
+        "problem_title": "The arithmetic mean of positive",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947344"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947167",
+        "problem_href": "https://www.eolymp.com/en/problems/907",
+        "problem_title": "The first is not greater for 2,5",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947167"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947047",
+        "problem_href": "https://www.eolymp.com/en/problems/906",
+        "problem_title": "Product of digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947047"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947043",
+        "problem_href": "https://www.eolymp.com/en/problems/905",
+        "problem_title": "What type of triangle?",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947043"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947030",
+        "problem_href": "https://www.eolymp.com/en/problems/904",
+        "problem_title": "Increase by 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947030"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947026",
+        "problem_href": "https://www.eolymp.com/en/problems/904",
+        "problem_title": "Increase by 2",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947026"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12947003",
+        "problem_href": "https://www.eolymp.com/en/problems/903",
+        "problem_title": "First or last?",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12947003"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12946952",
+        "problem_href": "https://www.eolymp.com/en/problems/902",
+        "problem_title": "The level of educational achievements",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12946952"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12946874",
+        "problem_href": "https://www.eolymp.com/en/problems/774",
+        "problem_title": "Cake",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12946874"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12946812",
+        "problem_href": "https://www.eolymp.com/en/problems/519",
+        "problem_title": "Sum of squares",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12946812"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12946803",
+        "problem_href": "https://www.eolymp.com/en/problems/518",
+        "problem_title": "Sum of two",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12946803"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12946794",
+        "problem_href": "https://www.eolymp.com/en/problems/494",
+        "problem_title": "AEIOUY",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12946794"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12946783",
+        "problem_href": "https://www.eolymp.com/en/problems/273",
+        "problem_title": "Modular Exponentiation",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12946783"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12946739",
+        "problem_href": "https://www.eolymp.com/en/problems/219",
+        "problem_title": "Central heating",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12946739"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12946662",
+        "problem_href": "https://www.eolymp.com/en/problems/127",
+        "problem_title": "Dollars in bank",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12946662"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12946404",
+        "problem_href": "https://www.eolymp.com/en/problems/248",
+        "problem_title": "Young gardener",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12946404"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12944446",
+        "problem_href": "https://www.eolymp.com/en/problems/2269",
+        "problem_title": "Connected components",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12944446"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12942611",
+        "problem_href": "https://www.eolymp.com/en/problems/8631",
+        "problem_title": "Number of maximal digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12942611"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12940616",
+        "problem_href": "https://www.eolymp.com/en/problems/113",
+        "problem_title": "Balloons",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12940616"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12940614",
+        "problem_href": "https://www.eolymp.com/en/problems/109",
+        "problem_title": "Page numbering",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12940614"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12940612",
+        "problem_href": "https://www.eolymp.com/en/problems/108",
+        "problem_title": "Median number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12940612"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12940607",
+        "problem_href": "https://www.eolymp.com/en/problems/87",
+        "problem_title": "Robot",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12940607"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12940604",
+        "problem_href": "https://www.eolymp.com/en/problems/76",
+        "problem_title": "New case",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12940604"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12940602",
+        "problem_href": "https://www.eolymp.com/en/problems/75",
+        "problem_title": "Pirates and coins",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12940602"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12940598",
+        "problem_href": "https://www.eolymp.com/en/problems/52",
+        "problem_title": "The Cheese for Anfisa",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12940598"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12940590",
+        "problem_href": "https://www.eolymp.com/en/problems/25",
+        "problem_title": "Paint3D",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12940590"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12930624",
+        "problem_href": "https://www.eolymp.com/en/problems/1609",
+        "problem_title": "The number of specified digits",
+        "lang": "Kotlin 1.7",
+        "id": "12930624"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12930606",
+        "problem_href": "https://www.eolymp.com/en/problems/1609",
+        "problem_title": "The number of specified digits",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12930606"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12930539",
+        "problem_href": "https://www.eolymp.com/en/problems/1609",
+        "problem_title": "The number of specified digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12930539"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12922198",
+        "problem_href": "https://www.eolymp.com/en/problems/10",
+        "problem_title": "Gardener",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12922198"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12922195",
+        "problem_href": "https://www.eolymp.com/en/problems/10",
+        "problem_title": "Gardener",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12922195"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12922139",
+        "problem_href": "https://www.eolymp.com/en/problems/9",
+        "problem_title": "N-digit numbers",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12922139"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12922132",
+        "problem_href": "https://www.eolymp.com/en/problems/9",
+        "problem_title": "N-digit numbers",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12922132"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12921899",
+        "problem_href": "https://www.eolymp.com/en/problems/8",
+        "problem_title": "Matches",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12921899"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12919497",
+        "problem_href": "https://www.eolymp.com/en/problems/9637",
+        "problem_title": "Dino and snow buildings",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12919497"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12919474",
+        "problem_href": "https://www.eolymp.com/en/problems/9637",
+        "problem_title": "Dino and snow buildings",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12919474"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12919175",
+        "problem_href": "https://www.eolymp.com/en/problems/4283",
+        "problem_title": "Stepan and pairs",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12919175"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12919158",
+        "problem_href": "https://www.eolymp.com/en/problems/4283",
+        "problem_title": "Stepan and pairs",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12919158"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12919112",
+        "problem_href": "https://www.eolymp.com/en/problems/4283",
+        "problem_title": "Stepan and pairs",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12919112"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12919051",
+        "problem_href": "https://www.eolymp.com/en/problems/4",
+        "problem_title": "Two circles",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12919051"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12919021",
+        "problem_href": "https://www.eolymp.com/en/problems/8637",
+        "problem_title": "Sort the points",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12919021"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12918995",
+        "problem_href": "https://www.eolymp.com/en/problems/8637",
+        "problem_title": "Sort the points",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12918995"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12918744",
+        "problem_href": "https://www.eolymp.com/en/problems/8637",
+        "problem_title": "Sort the points",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12918744"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12918733",
+        "problem_href": "https://www.eolymp.com/en/problems/8637",
+        "problem_title": "Sort the points",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "12918733"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12871572",
+        "problem_href": "https://www.eolymp.com/en/problems/10143",
+        "problem_title": "Throwing cards away",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12871572"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12806327",
+        "problem_href": "https://www.eolymp.com/en/problems/5076",
+        "problem_title": "Regular graph",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12806327"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12806265",
+        "problem_href": "https://www.eolymp.com/en/problems/2470",
+        "problem_title": "Checking for an undirected graph",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12806265"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12806231",
+        "problem_href": "https://www.eolymp.com/en/problems/2470",
+        "problem_title": "Checking for an undirected graph",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12806231"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12806225",
+        "problem_href": "https://www.eolymp.com/en/problems/2470",
+        "problem_title": "Checking for an undirected graph",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12806225"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12806217",
+        "problem_href": "https://www.eolymp.com/en/problems/2470",
+        "problem_title": "Checking for an undirected graph",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12806217"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12805885",
+        "problem_href": "https://www.eolymp.com/en/problems/8380",
+        "problem_title": "Escalator",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12805885"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12528316",
+        "problem_href": "https://www.eolymp.com/en/problems/9544",
+        "problem_title": "String operations",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12528316"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12527989",
+        "problem_href": "https://www.eolymp.com/en/problems/1498",
+        "problem_title": "KMP",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12527989"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12527642",
+        "problem_href": "https://www.eolymp.com/en/problems/8596",
+        "problem_title": "Journey from west to east",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12527642"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12502125",
+        "problem_href": "https://www.eolymp.com/en/problems/87",
+        "problem_title": "Robot",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12502125"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12485909",
+        "problem_href": "https://www.eolymp.com/en/problems/44",
+        "problem_title": "The number of ones",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12485909"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12420659",
+        "problem_href": "https://www.eolymp.com/en/problems/7311",
+        "problem_title": "Insert Parentheses",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12420659"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12378936",
+        "problem_href": "https://www.eolymp.com/en/problems/5",
+        "problem_title": "Two factors",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12378936"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12351394",
+        "problem_href": "https://www.eolymp.com/en/problems/11115",
+        "problem_title": "Beautiful number",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12351394"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12343780",
+        "problem_href": "https://www.eolymp.com/en/problems/11115",
+        "problem_title": "Beautiful number",
+        "lang": "C++ 17 (gnu 10.2)",
+        "id": "12343780"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12130256",
+        "problem_href": "https://www.eolymp.com/en/problems/2",
+        "problem_title": "Digits",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12130256"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12130238",
+        "problem_href": "https://www.eolymp.com/en/problems/1",
+        "problem_title": "Simple problem",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "12130238"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12130191",
+        "problem_href": "https://www.eolymp.com/en/problems/3",
+        "problem_title": "Match\u2019s model",
+        "lang": "C++ 11 (gnu 10.2)",
+        "id": "12130191"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12031696",
+        "problem_href": "https://www.eolymp.com/en/problems/4725",
+        "problem_title": "Sum of squares",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12031696"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12031691",
+        "problem_href": "https://www.eolymp.com/en/problems/4725",
+        "problem_title": "Sum of squares",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12031691"
+    },
+    {
+        "solution_href": "https://www.eolymp.com/en/submissions/12031621",
+        "problem_href": "https://www.eolymp.com/en/problems/11290",
+        "problem_title": "Card game",
+        "lang": "Python 3 (python 3.8)",
+        "id": "12031621"
+    }
+]

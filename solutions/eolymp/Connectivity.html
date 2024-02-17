@@ -1,0 +1,126 @@
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+		<title> Eolymp | Connectivity </title>
+
+		<meta charset= "UTF-8" />
+		<meta name= "description" content= "Detailed solution and explanation for the CSES Apartments problem" />
+		<meta name= "keywords" content= "apartments, cses apartments solution, cses ,cses solutions, cses problem set solutions, algorithm visualization" />
+		<meta name= "author" content= "japl" />
+		<meta name= "viewport" content= "width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" async
+  		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+		<link rel="icon" href="../../favicon.ico" />
+		
+		
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJRKSBQ1BY"></script>
+	
+
+
+		<link rel="stylesheet" href="../solution.css">
+	</head>
+        <body>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a class="active" href="../../index.html"> ↳ Back</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="conteudo">
+                <h1>Connectivity</h1>
+
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Statement:</p>
+                <p style="font-size:25px ;  text-align: justify"> ( The original statement can be found <a href="https://www.eolymp.com/en/problems/982" target="_blank">here</a> )Check whether the given undirected graph is connected. That its possible to go from any vertex to any other along the edges of this graph.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Input:</p>
+                <p style="font-size:25px ;  text-align: justify">The first line contains the number n of vertices and the number m of edges in the graph (1 \le n \le 100, 1 \le m \le 10000). The following m lines contain two numbers u_i and v_i by a space (1 \le u_i, v_i \le n); each such line means that the graph there is an edge between vertices u_i and v_i.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Output:</p>
+                <p style="font-size:25px ;  text-align: justify">Check whether the given undirected graph is connected. That its possible to go from any vertex to any other along the edges of this graph.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Constraints:</p>
+                <p style="font-size:25px ;  text-align: justify">Time limit
+                        1
+                        second<br>Memory limit
+                        128
+                        MiB<br>Show problem classificationconnected-components,                             depth-first-search,                             graph-theory</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Solution:</p>
+                <pre style="color:#D9C0A3;background:#323840ff; border-radius:15px;font-size:0.9vw;"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;bits/stdc++.h&quot;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="k">typedef</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">ll</span><span class="p">;</span>
+<span class="k">typedef</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">ld</span><span class="p">;</span>
+<span class="k">typedef</span><span class="w"> </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">vi</span><span class="p">;</span>
+<span class="k">typedef</span><span class="w"> </span><span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">vii</span><span class="p">;</span>
+<span class="k">typedef</span><span class="w"> </span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pii</span><span class="p">;</span>
+<span class="k">typedef</span><span class="w"> </span><span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">vpii</span><span class="p">;</span>
+
+<span class="cp">#define fastio ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);</span>
+<span class="cp">#define rep(i, a, b) for(int i = a; i &lt; b; i++)</span>
+<span class="cp">#define repr(i, a, b) for(int i = a; i &gt;= b; i--)</span>
+<span class="cp">#define fori(n) for(int i = 0; i &lt; n; i++)</span>
+<span class="cp">#define forj(n) for(int j = 0; j &lt; n; j++)</span>
+<span class="cp">#define each(e, a) for(auto &amp;e : a)</span>
+<span class="cp">#define all(x) x.begin(), x.end()</span>
+<span class="cp">#define rall(x) x.rbegin(), x.rend()</span>
+<span class="cp">#define sz(x) (int)(x.size())</span>
+<span class="cp">#define fi first</span>
+<span class="cp">#define se second</span>
+<span class="cp">#define pb push_back</span>
+<span class="cp">#define mp make_pair</span>
+<span class="cp">#define minput int t; cin &gt;&gt; t; while(t--)</span>
+<span class="cp">#define endl &#39;\n&#39;</span>
+
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">INF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span><span class="p">;</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">EPS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e-9</span><span class="p">;</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">MAXN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">101</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">m</span><span class="p">,</span><span class="w"> </span><span class="n">flag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="n">vii</span><span class="w"> </span><span class="nf">g</span><span class="p">(</span><span class="n">MAXN</span><span class="p">,</span><span class="w"> </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="n">MAXN</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">));</span>
+<span class="n">vi</span><span class="w"> </span><span class="nf">vis</span><span class="p">(</span><span class="n">MAXN</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">dfs</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">v</span><span class="p">){</span>
+<span class="w">    </span><span class="n">vis</span><span class="p">[</span><span class="n">v</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="n">rep</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">g</span><span class="p">[</span><span class="n">v</span><span class="p">][</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="o">!</span><span class="n">vis</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">dfs</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">solve</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">m</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">;</span>
+<span class="w">    </span><span class="n">rep</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">m</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">y</span><span class="p">;</span>
+<span class="w">        </span><span class="n">g</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">y</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">g</span><span class="p">[</span><span class="n">y</span><span class="p">][</span><span class="n">x</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">dfs</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="w">    </span><span class="n">rep</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">vis</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;NO&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="w">            </span><span class="k">return</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;YES&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">fastio</span><span class="p">;</span>
+<span class="w">    </span><span class="n">solve</span><span class="p">();</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</pre>
+                </iframe>
+            </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <!-- and it's easy to individually load additional languages -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+        </body>
+    </html>
+    

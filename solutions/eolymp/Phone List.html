@@ -1,0 +1,131 @@
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+		<title> Eolymp | Phone List </title>
+
+		<meta charset= "UTF-8" />
+		<meta name= "description" content= "Detailed solution and explanation for the CSES Apartments problem" />
+		<meta name= "keywords" content= "apartments, cses apartments solution, cses ,cses solutions, cses problem set solutions, algorithm visualization" />
+		<meta name= "author" content= "japl" />
+		<meta name= "viewport" content= "width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" async
+  		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+		<link rel="icon" href="../../favicon.ico" />
+		
+		
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJRKSBQ1BY"></script>
+	
+
+
+		<link rel="stylesheet" href="../solution.css">
+	</head>
+        <body>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a class="active" href="../../index.html"> ↳ Back</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="conteudo">
+                <h1>Phone List</h1>
+
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Statement:</p>
+                <p style="font-size:25px ;  text-align: justify"> ( The original statement can be found <a href="https://www.eolymp.com/en/problems/2303" target="_blank">here</a> )Given a list of phone numbers, determine if it is consistent in the sense that no number is the prefix of another. Let's say the phone catalog listed these numbers:
+In this case, it's not possible to call Bob, because the central would direct your call to the emergency line as soon as you had dialed the first three digits of Bob's phone number. So this list would not be consistent.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Input:</p>
+                <p style="font-size:25px ;  text-align: justify">The first line contains the number of test cases t (1 ≤ t ≤ 40). Each test case starts with the number of phone numbers n (1 ≤ n ≤ 1000000), on a separate line. Then follows n lines with one phone number on each line. A phone number is a sequence of at most ten digits.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Output:</p>
+                <p style="font-size:25px ;  text-align: justify">Given a list of phone numbers, determine if it is consistent in the sense that no number is the prefix of another. Let's say the phone catalog listed these numbers:</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Constraints:</p>
+                <p style="font-size:25px ;  text-align: justify">Time limit
+                        1
+                        second<br>Memory limit
+                        512
+                        MiB</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Solution:</p>
+                <pre style="color:#D9C0A3;background:#323840ff; border-radius:15px;font-size:0.9vw;"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;cstdio&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;cstring&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">MAXN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100005</span><span class="p">;</span>
+
+<span class="k">struct</span><span class="w"> </span><span class="nc">item</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">next</span><span class="p">[</span><span class="mi">10</span><span class="p">];</span>
+<span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">leaf</span><span class="p">;</span>
+<span class="w">    </span><span class="n">item</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">memset</span><span class="p">(</span><span class="n">next</span><span class="p">,</span><span class="w"> </span><span class="mi">-1</span><span class="p">,</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">next</span><span class="p">));</span>
+<span class="w">        </span><span class="n">leaf</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">};</span>
+
+<span class="n">vector</span><span class="o">&lt;</span><span class="n">item</span><span class="o">&gt;</span><span class="w"> </span><span class="n">trie</span><span class="p">;</span>
+<span class="kt">char</span><span class="w"> </span><span class="n">number</span><span class="p">[</span><span class="n">MAXN</span><span class="p">];</span>
+<span class="kt">bool</span><span class="w"> </span><span class="n">flag</span><span class="p">;</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">insert</span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">v</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">flag</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">];</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">trie</span><span class="p">[</span><span class="n">v</span><span class="p">].</span><span class="n">leaf</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">flag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">            </span><span class="k">return</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="sc">&#39;0&#39;</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">trie</span><span class="p">[</span><span class="n">v</span><span class="p">].</span><span class="n">next</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">trie</span><span class="p">[</span><span class="n">v</span><span class="p">].</span><span class="n">next</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">trie</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
+<span class="w">            </span><span class="n">trie</span><span class="p">.</span><span class="n">emplace_back</span><span class="p">();</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">v</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">trie</span><span class="p">[</span><span class="n">v</span><span class="p">].</span><span class="n">next</span><span class="p">[</span><span class="n">c</span><span class="p">];</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">trie</span><span class="p">[</span><span class="n">v</span><span class="p">].</span><span class="n">next</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">flag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">            </span><span class="k">return</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">trie</span><span class="p">[</span><span class="n">v</span><span class="p">].</span><span class="n">leaf</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">flag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">        </span><span class="k">return</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">trie</span><span class="p">[</span><span class="n">v</span><span class="p">].</span><span class="n">leaf</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">t</span><span class="p">,</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<span class="w">    </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">t</span><span class="p">);</span>
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">t</span><span class="o">--</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
+<span class="w">        </span><span class="n">trie</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span>
+<span class="w">        </span><span class="n">trie</span><span class="p">.</span><span class="n">emplace_back</span><span class="p">();</span>
+<span class="w">        </span><span class="n">flag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%s&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">number</span><span class="p">);</span>
+<span class="w">            </span><span class="n">insert</span><span class="p">(</span><span class="n">number</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">flag</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;NO</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;YES</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</pre>
+                </iframe>
+            </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <!-- and it's easy to individually load additional languages -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+        </body>
+    </html>
+    

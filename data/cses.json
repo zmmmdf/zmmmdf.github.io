@@ -1,0 +1,107 @@
+[
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8463454/",
+        "problem_href": "https://www.cses.fi/problemset/task/1068/",
+        "problem_title": "Weird Algorithm",
+        "lang": "C++",
+        "id": "1068"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8463491/",
+        "problem_href": "https://www.cses.fi/problemset/task/1083/",
+        "problem_title": "Missing Number",
+        "lang": "C++",
+        "id": "1083"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8463555/",
+        "problem_href": "https://www.cses.fi/problemset/task/1069/",
+        "problem_title": "Repetitions",
+        "lang": "C++",
+        "id": "1069"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8463636/",
+        "problem_href": "https://www.cses.fi/problemset/task/1094/",
+        "problem_title": "Increasing Array",
+        "lang": "C++",
+        "id": "1094"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8463840/",
+        "problem_href": "https://www.cses.fi/problemset/task/1070/",
+        "problem_title": "Permutations",
+        "lang": "C++",
+        "id": "1070"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8463950/",
+        "problem_href": "https://www.cses.fi/problemset/task/1071/",
+        "problem_title": "Number Spiral",
+        "lang": "C++",
+        "id": "1071"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8464156/",
+        "problem_href": "https://www.cses.fi/problemset/task/1072/",
+        "problem_title": "Two Knights",
+        "lang": "C++",
+        "id": "1072"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8464127/",
+        "problem_href": "https://www.cses.fi/problemset/task/1092/",
+        "problem_title": "Two Sets",
+        "lang": "C++",
+        "id": "1092"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8464239/",
+        "problem_href": "https://www.cses.fi/problemset/task/1617/",
+        "problem_title": "Bit Strings",
+        "lang": "C++",
+        "id": "1617"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8464255/",
+        "problem_href": "https://www.cses.fi/problemset/task/1618/",
+        "problem_title": "Trailing Zeros",
+        "lang": "C++",
+        "id": "1618"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8485862/",
+        "problem_href": "https://www.cses.fi/problemset/task/1754/",
+        "problem_title": "Coin Piles",
+        "lang": "C++",
+        "id": "1754"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8486022/",
+        "problem_href": "https://www.cses.fi/problemset/task/1755/",
+        "problem_title": "Palindrome Reorder",
+        "lang": "C++",
+        "id": "1755"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8486183/",
+        "problem_href": "https://www.cses.fi/problemset/task/2205/",
+        "problem_title": "Gray Code",
+        "lang": "C++",
+        "id": "2205"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8476979/",
+        "problem_href": "https://www.cses.fi/problemset/task/2163/",
+        "problem_title": "Josephus Problem II",
+        "lang": "C++",
+        "id": "2163"
+    },
+    {
+        "solution_href": "https://www.cses.fi/problemset/result/8485622/",
+        "problem_href": "https://www.cses.fi/problemset/task/1648/",
+        "problem_title": "Dynamic Range Sum Queries",
+        "lang": "C++",
+        "id": "1648"
+    }
+]

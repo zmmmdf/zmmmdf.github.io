@@ -1,0 +1,69 @@
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+		<title> Eolymp | New Sergey's game </title>
+
+		<meta charset= "UTF-8" />
+		<meta name= "description" content= "Detailed solution and explanation for the CSES Apartments problem" />
+		<meta name= "keywords" content= "apartments, cses apartments solution, cses ,cses solutions, cses problem set solutions, algorithm visualization" />
+		<meta name= "author" content= "japl" />
+		<meta name= "viewport" content= "width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" async
+  		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+		<link rel="icon" href="../../favicon.ico" />
+		
+		
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJRKSBQ1BY"></script>
+	
+
+
+		<link rel="stylesheet" href="../solution.css">
+	</head>
+        <body>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a class="active" href="../../index.html"> ↳ Back</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="conteudo">
+                <h1>New Sergey's game</h1>
+
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Statement:</p>
+                <p style="font-size:25px ;  text-align: justify"> ( The original statement can be found <a href="https://www.eolymp.com/en/problems/4720" target="_blank">here</a> )C-student Sergey often asks A-student Vasya to do his homework. Vasya is genius, but he still cann't cope with the work instantly, so Sergey waits. Sergey is boring long because of nothing to do. Not so long ago he came up with a new game to pass the time.
+On the white table with coordinate system Sergey puts a rectangular sheet of black paper. Above it he puts a rectangular piece of white paper so that possible it overlaps a portion of the black sheet. The parties of both sheets of paper are parallel to the coordinate axes. After that, the boy chooses a point on the plane of the table. If it hits the black sheet, Serge believes that the expectations are not boring, otherwise he gets upset.
+Help Sergey to understand, is he upset or not.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Input:</p>
+                <p style="font-size:25px ;  text-align: justify">First given the coordinates of upper left corner of black rectangle, then bottom right, the the coordinates of angles of white rectangle in the same format and at last the point's coordinates are given. All coordinates are integer, not greater than 10000 by absolute value.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Output:</p>
+                <p style="font-size:25px ;  text-align: justify">C-student Sergey often asks A-student Vasya to do his homework. Vasya is genius, but he still cann't cope with the work instantly, so Sergey waits. Sergey is boring long because of nothing to do. Not so long ago he came up with a new game to pass the time.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Constraints:</p>
+                <p style="font-size:25px ;  text-align: justify">Time limit
+                        1
+                        second<br>Memory limit
+                        128
+                        MiB</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Solution:</p>
+                <pre style="color:#D9C0A3;background:#323840ff; border-radius:15px;font-size:0.9vw;"><div class="highlight"><pre><span></span><span class="n">x1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y2</span><span class="p">,</span> <span class="n">x3</span><span class="p">,</span> <span class="n">y3</span><span class="p">,</span> <span class="n">x4</span><span class="p">,</span> <span class="n">y4</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+
+<span class="k">if</span> <span class="n">x1</span> <span class="o">&lt;=</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="n">x2</span> <span class="ow">and</span> <span class="n">y1</span> <span class="o">&gt;=</span> <span class="n">y</span> <span class="o">&gt;=</span> <span class="n">y2</span> <span class="ow">and</span> <span class="ow">not</span> <span class="p">(</span><span class="n">x3</span> <span class="o">&lt;</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">x4</span> <span class="ow">and</span> <span class="n">y3</span> <span class="o">&gt;</span> <span class="n">y</span> <span class="o">&gt;</span> <span class="n">y4</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;HAPPY&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;SAD&quot;</span><span class="p">)</span>
+</pre></div>
+</pre>
+                </iframe>
+            </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <!-- and it's easy to individually load additional languages -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+        </body>
+    </html>
+    

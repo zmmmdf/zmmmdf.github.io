@@ -1,0 +1,150 @@
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+		<title> Eolymp | Number Spiral </title>
+
+		<meta charset= "UTF-8" />
+		<meta name= "description" content= "Detailed solution and explanation for the CSES Apartments problem" />
+		<meta name= "keywords" content= "apartments, cses apartments solution, cses ,cses solutions, cses problem set solutions, algorithm visualization" />
+		<meta name= "author" content= "japl" />
+		<meta name= "viewport" content= "width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" async
+  		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+		<link rel="icon" href="../../favicon.ico" />
+		
+		
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJRKSBQ1BY"></script>
+	
+
+
+		<link rel="stylesheet" href="../solution.css">
+	</head>
+        <body>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a class="active" href="../../index.html"> ↳ Back</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="conteudo">
+                <h1>Number Spiral</h1>
+
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Statement:</p>
+                <p style="font-size:25px ;  text-align: justify"> ( The original statement can be found <a href="https://www.cses.fi/problemset/task/1071/" target="_blank">here</a> ) <br>A number spiral is an infinite grid whose upper-left square has number 1. Here are the first five layers of the spiral:
+
+Your task is to find out the number in row y and column x.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Input:</p>
+                <p style="font-size:25px ;  text-align: justify">The first input line contains an integer t: the number of tests.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Output:</p>
+                <p style="font-size:25px ;  text-align: justify">After this, there are t lines, each containing integers y and x.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Constraints:</p>
+                <p style="font-size:25px ;  text-align: justify">Time limit: 1.00 s<br>Memory limit: 512 MB<br>1 \le t \le 10^5<br>1 \le y,x \le 10^9</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Solution:</p>
+                <pre style="color:#D9C0A3;background:#323840ff; border-radius:15px;font-size:0.9vw;"><div class="highlight"><pre><span></span><span class="cp">#</span><span class="w"> </span><span class="cp">include</span><span class="w"> </span><span class="cpf">&quot;bits/stdc++.h&quot;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span>
+
+<span class="nn">typedef</span><span class="w"> </span><span class="nn">long</span><span class="w"> </span><span class="nn">long</span><span class="w"> </span><span class="nn">ll</span>
+<span class="nn">typedef</span><span class="w"> </span><span class="nn">long</span><span class="w"> </span><span class="nn">double</span><span class="w"> </span><span class="nn">ld</span>
+<span class="nn">typedef</span><span class="w"> </span><span class="nn">vector</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nn">int</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="nn">vi</span>
+<span class="nn">typedef</span><span class="w"> </span><span class="nn">vector</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nn">vector</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nn">int</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="nn">vii</span>
+<span class="nn">typedef</span><span class="w"> </span><span class="nn">pair</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nn">int</span><span class="p">,</span><span class="w"> </span><span class="nn">int</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="nn">pii</span>
+<span class="nn">typedef</span><span class="w"> </span><span class="nn">vector</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nn">pair</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nn">int</span><span class="p">,</span><span class="w"> </span><span class="nn">int</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="nn">vpii</span>
+<span class="nn">typedef</span><span class="w"> </span><span class="nn">string</span><span class="w"> </span><span class="nn">str</span>
+
+<span class="nn">template</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nn">typename</span><span class="p">...</span><span class="w"> </span><span class="nn">T</span><span class="w"> </span><span class="o">&gt;</span>
+<span class="nn">void</span><span class="w"> </span><span class="nn">see</span><span class="p">(</span><span class="nn">T</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="p">...</span><span class="nn">args</span><span class="p">)</span><span class="w"> </span><span class="p">{((</span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">args</span><span class="p">),</span><span class="w"> </span><span class="p">...)</span>
+<span class="w">                       </span><span class="p">}</span>
+
+<span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="k">typename</span><span class="p">...</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="o">&gt;</span>
+<span class="kt">void</span><span class="w"> </span><span class="n">put</span><span class="p">(</span><span class="n">T</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="o">&amp;</span><span class="p">...</span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{((</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">args</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; &quot;</span><span class="p">),</span><span class="w"> </span><span class="p">...)</span>
+<span class="w">                        </span><span class="p">}</span>
+
+<span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="k">typename</span><span class="p">...</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="o">&gt;</span>
+<span class="kt">void</span><span class="w"> </span><span class="n">putl</span><span class="p">(</span><span class="n">T</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="o">&amp;</span><span class="p">...</span><span class="n">args</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="p">((</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">args</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; &quot;</span><span class="p">),</span><span class="w"> </span><span class="p">...)</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="sc">&#39;\n&#39;</span>
+<span class="p">}</span>
+
+<span class="cp"># define fastio                        \</span>
+<span class="cp">    ios_base:: sync_with_stdio(false)</span>
+<span class="w">    </span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">NULL</span><span class="p">)</span>
+<span class="w">    </span><span class="n">cout</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">NULL</span><span class="p">)</span>
+
+<span class="cp"># define rep(i, a, b) for (int i = a; i &lt; b; i++)</span>
+<span class="cp"># define repr(i, a, b) for (int i = a; i &gt;= b; i--)</span>
+<span class="cp"># define fori(n) for (int i = 0; i &lt; n; i++)</span>
+<span class="cp"># define forj(n) for (int j = 0; j &lt; n; j++)</span>
+<span class="cp"># define fork(n) for (int k = 0; k &lt; n; k++)</span>
+<span class="cp"># define each(e, a) for (auto &amp;e : a)</span>
+<span class="cp"># define all(x) x.begin(), x.end()</span>
+<span class="cp"># define rall(x) x.rbegin(), x.rend()</span>
+<span class="cp"># define sz(x) (int)(x.size())</span>
+<span class="cp"># define fi first</span>
+<span class="cp"># define se second</span>
+<span class="cp"># define pb push_back</span>
+<span class="cp"># define mp make_pair</span>
+<span class="cp"># define minput \</span>
+<span class="cp">    int t</span>
+<span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">t</span>
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">t</span><span class="o">--</span><span class="p">)</span>
+
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">INF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">NINF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">-1e9</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">EPS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e-9</span>
+<span class="k">const</span><span class="w"> </span><span class="n">ll</span><span class="w"> </span><span class="n">MOD</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">N</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1000000</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span>
+
+
+<span class="n">ll</span><span class="w"> </span><span class="n">answer</span><span class="p">(</span><span class="n">ll</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">ll</span><span class="w"> </span><span class="n">y</span><span class="p">){</span>
+<span class="w">    </span><span class="n">ll</span><span class="w"> </span><span class="n">mx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">max</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">)</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">mx</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">){</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="p">){</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">mx</span><span class="o">*</span><span class="n">mx</span>
+<span class="w">        </span><span class="p">}</span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">mx</span><span class="p">){</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">answer</span><span class="p">(</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="n">mx</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="n">mx</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">x</span><span class="p">)</span>
+<span class="w">        </span><span class="p">}</span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">mx</span><span class="p">){</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="n">mx</span><span class="o">*</span><span class="n">mx</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="mi">-1</span><span class="p">)</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="p">){</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">mx</span><span class="o">*</span><span class="n">mx</span>
+<span class="w">        </span><span class="p">}</span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">mx</span><span class="p">){</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">answer</span><span class="p">(</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="n">mx</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="n">mx</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">y</span><span class="p">)</span>
+<span class="w">        </span><span class="p">}</span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">mx</span><span class="p">){</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="n">mx</span><span class="o">*</span><span class="n">mx</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="mi">-1</span><span class="p">)</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="n">solve</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">see</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">)</span>
+<span class="w">    </span><span class="n">putl</span><span class="p">(</span><span class="n">answer</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">main</span><span class="p">(){</span>
+<span class="w">    </span><span class="n">fastio</span>
+<span class="w">    </span><span class="n">minput</span>
+<span class="w">    </span><span class="n">solve</span><span class="p">()</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span>
+<span class="p">}</span>
+</pre></div>
+</pre>
+                </iframe>
+            </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <!-- and it's easy to individually load additional languages -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+        </body>
+    </html>
+    

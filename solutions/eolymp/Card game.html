@@ -1,0 +1,124 @@
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+		<title> Eolymp | Card game </title>
+
+		<meta charset= "UTF-8" />
+		<meta name= "description" content= "Detailed solution and explanation for the CSES Apartments problem" />
+		<meta name= "keywords" content= "apartments, cses apartments solution, cses ,cses solutions, cses problem set solutions, algorithm visualization" />
+		<meta name= "author" content= "japl" />
+		<meta name= "viewport" content= "width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" async
+  		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+		<link rel="icon" href="../../favicon.ico" />
+		
+		
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJRKSBQ1BY"></script>
+	
+
+
+		<link rel="stylesheet" href="../solution.css">
+	</head>
+        <body>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a class="active" href="../../index.html"> ↳ Back</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="conteudo">
+                <h1>Card game</h1>
+
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Statement:</p>
+                <p style="font-size:25px ;  text-align: justify"> ( The original statement can be found <a href="https://www.eolymp.com/en/problems/11290" target="_blank">here</a> )Returning to Azerbaijan from Indonesia, while waiting for the next flight at the Doha airport, Said, Omar, Fidan and Fuad decided to play cards in order to "effectively" spend their time.
+The standard deck contains
+52
+cards of
+13
+different denominations (
+A
+,
+K
+,
+Q
+,
+J
+,
+10
+,
+9
+,
+8
+,
+7
+,
+6
+,
+5
+,
+4
+,
+3
+and
+2
+) and
+4
+suits (
+♠
+,
+♣
+,
+♥
+,
+♦
+). Each player is dealt
+13
+cards. The total card score of each player is calculated as follows:
+Since Fuad is new to this game, he first practiced scoring. Thus, the cards were dealt
+n
+times, and each time Fuad counted the points of his cards. In the end, he counted all the points.
+Now he wants to know if he has calculated the total points correctly or not. Write a program to help him with this task.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Input:</p>
+                <p style="font-size:25px ;  text-align: justify">The first line contains n (1 ≤ n ≤ 10000) integers. Each of the following n lines contains a row of 13 cards, consisting only of characters 'A', 'K', 'Q', 'J', 'X'.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Output:</p>
+                <p style="font-size:25px ;  text-align: justify">Returning to Azerbaijan from Indonesia, while waiting for the next flight at the Doha airport, Said, Omar, Fidan and Fuad decided to play cards in order to "effectively" spend their time.</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Constraints:</p>
+                <p style="font-size:25px ;  text-align: justify">Time limit
+                        1
+                        second<br>Memory limit
+                        128
+                        MiB<br>Source Azerbaijan 2022: Qualifying exam in the preparation group for the International Olympiad October 29</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Solution:</p>
+                <pre style="color:#D9C0A3;background:#323840ff; border-radius:15px;font-size:0.9vw;"><div class="highlight"><pre><span></span><span class="n">str_len</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">str_main</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+<span class="n">res</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">str_len</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">temp</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+    <span class="n">str_main</span> <span class="o">+=</span> <span class="n">temp</span>
+<span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">str_main</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">elem</span> <span class="o">==</span>  <span class="s1">&#39;A&#39;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">+=</span> <span class="mi">4</span>
+    <span class="k">elif</span> <span class="n">elem</span> <span class="o">==</span>  <span class="s1">&#39;K&#39;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">+=</span> <span class="mi">3</span>
+    <span class="k">elif</span> <span class="n">elem</span> <span class="o">==</span>  <span class="s1">&#39;Q&#39;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">+=</span> <span class="mi">2</span>
+    <span class="k">elif</span> <span class="n">elem</span> <span class="o">==</span> <span class="s1">&#39;J&#39;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
+</pre></div>
+</pre>
+                </iframe>
+            </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <!-- and it's easy to individually load additional languages -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+        </body>
+    </html>
+    

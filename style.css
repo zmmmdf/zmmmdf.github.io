@@ -1,0 +1,135 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x     : hidden;
+}
+
+*{
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2c2c3c;
+}
+
+p{
+    text-align : justify;
+    color      : #696867;
+    margin     : 2% 0;
+    font-family: 'Times New Roman', serif;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+    color : #4e65a6;
+    margin: 4% 0;
+}
+
+div.load-wrapper{
+    z-index         : 2048;
+    top             : 0;
+    position        : fixed;
+    width           : 100vw;
+    height          : 100vh;
+    background-color: #2c2c3c;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    flex-direction  : column;
+}
+
+div#header{
+    height               : 25vh;
+    background-image     : url("./assets/User\ Collapsed.png");
+    background-attachment: con;
+    background-position  : bottom;
+    background-repeat    : no-repeat;
+    background-size      :  contain;
+    display              : flex;
+    justify-content      : center;
+    align-items          : center;
+    border-radius        : 8px;
+}
+
+div#header:hover{
+    cursor               : pointer;
+}
+
+div#header button{
+    font-size: 4em;
+}
+
+div#about div.offcanvas-body a#discordButton{
+    width           : 100%;
+    background-color: rgb(71, 87, 145);
+    color           : white;
+}
+
+.btn{
+    width           : 100%;
+    background-color: rgb(71, 87, 145);
+    color           : white;
+}
+
+div#articles{
+    background-color: #474F59;
+    border-radius   : 8px;
+    margin-top      : 2%;
+    margin-bottom   : 2%;
+    padding         : 0;
+}
+
+
+
+div#articles .nav-item{
+    padding: 8px;
+}
+
+
+div#articles ul.nav-pills button.nav-link{
+    background-color: #4e65a6;
+    color           : white;
+}
+
+div#articles ul.nav-pills button.nav-link.active{
+    background-color: #696867;
+    color           : white;
+}
+
+div#articles div.col{
+    padding: 0;
+}
+
+div#articles div.card{
+    width : 24%;
+    margin: 4px;
+}
+
+div#articles div.card div.card-body{
+    height: 156px;
+}
+
+div#articles div.card h5{
+    text-align: center;
+}
+
+div#articles div.card p span{
+    color: white;
+}
+
+
+div#articles div.card a.btn{
+    color           : white;
+    background-color: #4e65a6;
+    width           : 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    div#articles div.card{
+        width : 100vw;
+        margin: 0;
+    }
+}
+
+a:hover{
+    color: #6186eb;
+}
