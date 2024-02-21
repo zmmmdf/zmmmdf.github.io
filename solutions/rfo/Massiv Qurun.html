@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> RFO 2024 | Massiv Qurun </title>
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Detailed solution for the Azerbaijan Republican Informatic Olympiad" />
+    <meta name="keywords"
+        content="apartments, rfo, rfo 2024, rfo informatika, olimpiada edu az, cses apartments solution, cses ,cses solutions, cses problem set solutions, algorithm visualization" />
+    <meta name="author" content="japl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+    <link rel="icon" href="../../favicon.ico" />
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJRKSBQ1BY"></script>
+
+
+
+    <link rel="stylesheet" href="../solution.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li><a class="active" href="../../index.html"> ↳ Back</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="conteudo">
+        <h1>Massiv Qurun</h1>
+
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Statement:</p>
+        <p style="font-size:25px ;  text-align: justify"> (The original statement can be found <a
+                href="../../assets/2024_Semifinals_S2.pdf" target="_blank">here</a>) <br>
+            Əli 𝑠𝚤𝑓𝚤𝑟𝑑𝑎𝑛 yeni massiv qurmağı çox xoşlayır. Bu gün o, 𝑛 elementdən ibarət 𝑎1 , 𝑎2 , ..., 𝑎𝑛
+            massivini qurmaq istəyir. Onun əlində ilkin olaraq 𝑛 sayda 0-dan ibarət 𝑏1 , 𝑏2 , ..., 𝑏𝑛 massivi var
+            və bu massivə yalnız aşağıdakı növ əməliyyatı tətbiq edə bilər.
+            • <strong style="color:lightblue;">MAX(l, r, x)</strong>: Bu o deməkdir ki, 𝑙 ≤ 𝑖 ≤ 𝑟 şərtini ödəyən bütün 𝑖-lər üçün 𝑏𝑖 = max(𝑏𝑖 , 𝑥)
+            olacaq. Təbii ki, bu əməliyyatda 1 ≤ 𝑙 ≤ 𝑟 ≤ 𝑛 şərti ödənməlidir.
+            İndi Əlini bir sual düşündürür, görəsən, minimum neçə əməliyyatla 𝑎 massivini əldə edə bilər. Əliyə minimum
+            əməliyyat sayını və hər hansı belə əməliyyatlar ardıcıllığını tapmaqda kömək edin.</p>
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Input:</p>
+        <p style="font-size:25px ;  text-align: justify">
+            Birinci sətirdə bir tam ədəd, 𝑛, növbəti sətirdə boşluqla ayrılmış 𝑛 sayda tam ədəd, 𝑎1 , 𝑎2 , ..., 𝑎𝑛
+            verilir.
+        </p>
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Output:</p>
+        <p style="font-size:25px ;  text-align: justify">
+            Çıxışa birinci sətirdə 𝑎 massivini əldə etmək üçün lazım olan minimum əməliyyat sayını verin. Bu sayı 𝑚
+            ilə işarə edək. Növbəti 𝑚 sətirdə hər hansı belə əməliyyatlar ardıcıllığını 𝒍 𝒓 𝒙 formatında çap edin.
+        </p>
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Constraints:</p>
+
+        <p style="font-size:25px ;  text-align: justify">
+
+            Zaman limiti: 1.5 san. <br>
+            Yaddaş limiti: 256 mb. <br>
+            • 1≤𝑛≤105 <br>
+            • 0≤𝑎𝑖 ≤109 </p>
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Solution:</p>
+        <pre style="color:#D9C0A3;background:#323840ff; border-radius:15px;font-size:0.9vw;"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="cp">#define endl &#39;n&#39;</span>
+<span class="cp">#define ll long long</span>
+<span class="cp">#define int ll</span>
+<span class="cp">#define pii pair &lt;int, int&gt;</span>
+<span class="cp">#define pb push_back</span>
+<span class="cp">#define all(v) v.begin(), v.end()</span>
+<span class="cp">#define sz(v) (int)(v.size())</span>
+<span class="cp">#define F first</span>
+<span class="cp">#define S second</span>
+<span class="cp">#define io ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0)</span>
+<span class="cp">#define M_PI 3.14159265358979323846</span>
+
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">N</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e5</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">mod</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">998244353</span><span class="p">;</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">INF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e18</span><span class="p">;</span>
+
+<span class="kt">signed</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">io</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
+<span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+<span class="w">        </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">a</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">n</span><span class="o">++</span><span class="p">;</span>
+<span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">pii</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">ans</span><span class="p">;</span>
+<span class="w">    </span><span class="n">stack</span><span class="o">&lt;</span><span class="n">pii</span><span class="o">&gt;</span><span class="w"> </span><span class="n">s</span><span class="p">;</span>
+<span class="w">    </span><span class="n">s</span><span class="p">.</span><span class="n">push</span><span class="p">({</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">-1</span><span class="p">});</span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+<span class="w">        </span><span class="k">while</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">top</span><span class="p">().</span><span class="n">first</span><span class="p">){</span>
+<span class="w">            </span><span class="n">ans</span><span class="p">.</span><span class="n">pb</span><span class="p">({{</span><span class="n">s</span><span class="p">.</span><span class="n">top</span><span class="p">().</span><span class="n">second</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">},</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">top</span><span class="p">().</span><span class="n">first</span><span class="p">});</span>
+<span class="w">            </span><span class="n">s</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">top</span><span class="p">().</span><span class="n">first</span><span class="p">){</span>
+<span class="w">            </span><span class="n">s</span><span class="p">.</span><span class="n">push</span><span class="p">({</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="w"> </span><span class="n">i</span><span class="p">});</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">ans</span><span class="p">.</span><span class="n">size</span><span class="p">()</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">ans</span><span class="p">.</span><span class="n">size</span><span class="p">();</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+<span class="w">        </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">first</span><span class="p">.</span><span class="n">first</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span>
+            <span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">first</span><span class="p">.</span><span class="n">second</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span>
+            <span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">second</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre>
+    </div>
+
+    </pre>
+
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+</body>
+
+</html>

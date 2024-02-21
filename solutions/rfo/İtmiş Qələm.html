@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> RFO 2024 | İtmiş Qələm </title>
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Detailed solution for the Azerbaijan Republican Informatic Olympiad" />
+    <meta name="keywords"
+        content="apartments, rfo, rfo 2024, rfo informatika, olimpiada edu az, cses apartments solution, cses ,cses solutions, cses problem set solutions, algorithm visualization" />
+    <meta name="author" content="japl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+    <link rel="icon" href="../../favicon.ico" />
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJRKSBQ1BY"></script>
+
+
+
+    <link rel="stylesheet" href="../solution.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li><a class="active" href="../../index.html"> ↳ Back</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="conteudo">
+        <h1>İtmiş Qələm</h1>
+
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Statement:</p>
+        <p style="font-size:25px ;  text-align: justify"> (The original statement can be found <a
+                href="../../assets/2024_Semifinals_S2.pdf" target="_blank">here</a>) <br>
+            Yaddaş limitinə diqqət!
+            Dayının qələm kolleksiyasında hər biri fərqli rəngdə olan 𝑛 sayda qələm var. Bu qələmlərin rəngləri 1-
+            dən 𝑛-ə tam ədədlərlə ifadə olunur. Oyuncaqları ilə oynamaqdan bezən Müjgan bu qələmlərlə oynamaq
+            qərarına gəldi. Bir qədər oynadıqdan sonra qələmlərdən birini itirdi, lakin dayısı xəbər tutmasın deyə
+            öz qələmlərindən birini kolleksiyaya qoydu. Onun qoyduğu qələm də bu kolleksiyadakı qələmlərdən,
+            itmiş qələm və ya digər biri ilə eyni rəngdədir. Əgər bu qələm itmiş qələmlə eyni rəngdə olarsa dayısı
+            qələmin itdiyindən xəbər tutmayacaq, əks halda bu dayının gözündən qaça bilməz. Bəs siz itmiş qələmi
+            tapa bilərsinizmi?
+            Sizə dayının kolleksiyasındakı qələmlərin sayı və Müjgan itmiş qələmi ört-basdır etdikdən sonrakı
+            vəziyyəti, yəni oradakı qələmlərin rəngləri verilir. Müjganın itirdiyi qələmin rəngini tapın. Əgər bunu
+            dəqiq tapmaq mümkün deyilsə çıxışa −1 verin.</p>
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Input:</p>
+        <p style="font-size:25px ;  text-align: justify">
+            Birinci sətirdə bir tam ədəd 𝑛 verilir. Növbəti 𝑛 sətrin hər birində bir tam ədəd, 𝑐𝑖, qələmlərin
+            rəngləri
+            verilir.
+        </p>
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Output:</p>
+        <p style="font-size:25px ;  text-align: justify">
+            Çıxışa əgər Müjganın itirdiyi qələmi dəqiqliklə tapmaq mümkündürsə həmin qələmin rəngini, əks
+            halda −1 verin.
+        </p>
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Constraints:</p>
+
+        <p style="font-size:25px ;  text-align: justify">
+            Zaman limiti: 4 san. <br>
+            Yaddaş limiti: 5 mb. <br>
+            • 2 ≤ 𝑛 ≤ 2 ⋅ 106 <br>
+            • 1 ≤ 𝑐1, 𝑐2, …, 𝑐𝑛 ≤ 𝑛 </p>
+        <p style="font-family: Arial, Helvetica, sans-serif; color      : #A65E4E; font-size:30px;">Solution:</p>
+        <pre style="color:#D9C0A3;background:#323840ff; border-radius:15px;font-size:0.9vw;"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;bits/stdc++.h&quot;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="cp">#define ll long long</span>
+<span class="cp">#define endl &#39;\n&#39;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+<span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">&lt;=</span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">&lt;=</span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+<span class="w">        </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<span class="w">        </span><span class="n">a</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">&lt;=</span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">i</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="mi">-1</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+                </pre>
+    </div>
+    </pre>
+
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+</body>
+
+</html>
