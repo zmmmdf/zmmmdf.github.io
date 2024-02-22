@@ -24,6 +24,24 @@ h1,h2,h3,h4,h5,h6,a{
     margin: 4% 0;
 }
 
+.text-main{
+    color: rgb(131, 150, 218) ;
+}
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #777;
+    border-radius: 10px;
+  }
+
 div.load-wrapper{
     z-index         : 2048;
     top             : 0;
